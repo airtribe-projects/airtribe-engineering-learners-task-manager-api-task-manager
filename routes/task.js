@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const tasksData = require('../data/tasks.json');
-let tasks = tasksData.tasks; // Access the tasks array from the JSON data
+// let tasks = tasksData.tasks; 
+let tasks = JSON.parse(JSON.stringify(tasksData.tasks)); // Access the tasks array from the JSON data
 const { validateTaskInput } = require('../middleware');
 
 router.get('/', (req, res) => {
@@ -20,7 +21,7 @@ router.get('/:id', (req, res) => {
     res.send(task);
 });
 
-router.post('/', validateTaskInput,(req, res) => {
+router.post('/', validateTaskInput, (req, res) => {
     const { title, description, completed } = req.body;
 
     // Generate a new task ID based on the length of tasks or max existing id
