@@ -43,19 +43,23 @@ http://localhost:3000
 
 
 # API Endpoints
- Below is a list of all API endpoints and how to interact with them. For testing the API, you can use Postman or cURL.
 
-1. **Create a New Task**
-  -Method: POST
-  -Endpoint: /tasks
-  -Description: Creates a new task.
-  -Request Body (JSON):
-  -{
-    -"title": "Complete Project",
-    -"description": "Finish the API section of the project",
-    -"completed": false
-  -}
+Below is a list of all API endpoints and how to interact with them. For testing the API, you can use **Postman** or **cURL**.
+
+### 1. Create a New Task
+- **Method**: `POST`
+- **Endpoint**: `/tasks`
+- **Description**: Creates a new task.
+- **Request Body (JSON)**:
+  ```json
+  {
+    "title": "Complete Project",
+    "description": "Finish the API section of the project",
+    "completed": false
+  }
+
 **Response (201 - Created)**:
+```json
 {
   "_id": "task_id",
   "title": "Complete Project",
@@ -63,11 +67,14 @@ http://localhost:3000
   "completed": false,
   "owner": "user_id"
 }
+```
+
 2. **Get All Tasks**
   Method: GET
   Endpoint: /tasks
   Description: Fetches all tasks for the authenticated user.
   Response (200 - OK):
+```json
   [
     {
       "_id": "task_id",
@@ -76,23 +83,27 @@ http://localhost:3000
       "completed": false
     }
 ]
+```
 3. **Get a Single Task**
-  Method: GET
-  Endpoint: /tasks/:id
-  Description: Fetches a task by its ID.
-  Response (200 - OK):
-
+  - **Method**: GET
+  - **Endpoint**: /tasks/:id
+  - **Description**: Fetches a task by its ID.
+  - **Response (200 - OK)**:
+```json
   {
     "_id": "task_id",
     "title": "Complete Project",
     "description": "Finish the API section of the project",
     "completed": false
   }
+```
 4. **Update a Task**
-  Method: PATCH
-  Endpoint: /tasks/:id
-  Description: Updates a task's information.
-  Request Body (JSON):
+  - **Method**: PATCH
+  - **Endpoint**: /tasks/:id
+  - **Description**: Updates a task's information.
+  
+  **Request Body (JSON)**:
+  ```json
   {
     "completed": true
   }
@@ -104,22 +115,25 @@ http://localhost:3000
     "description": "Finish the API section of the project",
     "completed": true
   }
+```
 5. **Delete a Task**
-  Method: DELETE
-  Endpoint: /tasks/:id
-  Description: Deletes a task by its ID.
-  Response (200 - OK):
+  - **Method**: DELETE
+  - **Endpoint**: /tasks/:id
+  - **Description**: Deletes a task by its ID.
+  
+  **Response (200 - OK)**:
+  ```json
   {
     "message": "Task deleted successfully"
   }
-  
+```
 # Testing the API
 You can use Postman or cURL to test the API endpoints.
 
-Using Postman
-Open Postman and create a new request.
-Enter the API endpoint URL.
-Select the HTTP method (GET, POST, PATCH, DELETE).
-Provide the request body as required (for POST or PATCH requests).
-Send the request and view the response.
+- Using Postman
+- Open Postman and create a new request.
+- Enter the API endpoint URL.
+- Select the HTTP method (GET, POST, PATCH, DELETE).
+- Provide the request body as required (for POST or PATCH requests).
+- Send the request and view the response.
 
