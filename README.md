@@ -46,15 +46,15 @@ http://localhost:3000
  Below is a list of all API endpoints and how to interact with them. For testing the API, you can use Postman or cURL.
 
 1. **Create a New Task**
-  Method: POST
-  Endpoint: /tasks
-  Description: Creates a new task.
-  Request Body (JSON):
-  {
-    "title": "Complete Project",
-    "description": "Finish the API section of the project",
-    "completed": false
-  }
+  -Method: POST
+  -Endpoint: /tasks
+  -Description: Creates a new task.
+  -Request Body (JSON):
+  -{
+    -"title": "Complete Project",
+    -"description": "Finish the API section of the project",
+    -"completed": false
+  -}
 **Response (201 - Created)**:
 {
   "_id": "task_id",
