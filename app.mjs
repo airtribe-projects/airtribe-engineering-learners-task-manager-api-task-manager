@@ -1,9 +1,12 @@
-const express = require('express');
+import express, { json, urlencoded } from 'express';
+import taskRouter from './routes/task.mjs'
+
 const app = express();
 const port = 3000;
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(json());
+app.use(urlencoded({ extended: true }));
+app.use('/api' , taskRouter)
 
 app.listen(port, (err) => {
     if (err) {
@@ -14,4 +17,4 @@ app.listen(port, (err) => {
 
 
 
-module.exports = app;
+export default app;
