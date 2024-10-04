@@ -29,7 +29,16 @@ function writeTasks(tasks) {
 
 // Get all tasks
 app.get('/tasks/', (req, res) => {
-    res.json(readTasks());
+    const tasks = readTasks();
+    const { completed } = req.query;
+
+    if (completed !== undefined) {
+        const isCompleted = completed === 'true';
+        const filteredTasks = tasks.filter((task) => task.completed === isCompleted);
+        return res.json(filteredTasks);
+    }
+
+    res.json(tasks);
 });
 
 // Get single task
