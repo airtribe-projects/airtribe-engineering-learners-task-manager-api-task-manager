@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /node_modules
 /.tap
+=======
+node_modules
+.env
+>>>>>>> 7e9e6a2 (Initial commit for Task Manager API)
