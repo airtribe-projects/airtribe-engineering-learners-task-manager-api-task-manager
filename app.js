@@ -40,6 +40,7 @@ app.get("/tasks/:id", (req, res) => {
 //* Update a task
 app.put("/tasks/:id", (req, res) => {
     const body = req.body;
+    const id = req.params.id;
     const isValid = !isNaN(id) && id <= tasks.length;
 
     if(isValid) {
@@ -74,6 +75,7 @@ app.post("/tasks", (req, res) => {
 
 //* Delete a task
 app.delete("/tasks/:id", (req, res) =>{
+    const id = req.params.id;
     const isValid = !isNaN(id) && id <= tasks.length;
     
     if(isValid) {
