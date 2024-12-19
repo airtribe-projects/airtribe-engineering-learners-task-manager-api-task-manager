@@ -17,15 +17,15 @@ app.listen(port, (err) => {
 });
 
 
-app.get("/tasks", (req, res) => {
-    res.status(200).send(tasks);
-});
-
 app.get("/", (req, res) => {
     res.status(200).send({
         message: "Success"
     });
-})
+});
+
+app.get("/tasks", (req, res) => {
+    res.status(200).send(tasks);
+});
 
 //* Get a task
 app.get("/tasks/:id", (req, res) => {
@@ -56,8 +56,6 @@ app.put("/tasks/:id", (req, res) => {
         });
     }
 });
-
-console.log("TASKS UPDATED: ", tasks);
 
 
 //* Add a new task
