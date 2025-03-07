@@ -1,5 +1,4 @@
-{
-  "tasks": [
+[
     {
       "id": 1,
       "title": "Set up environment",
@@ -90,5 +89,5 @@
       "description": "Install jsonwebtoken",
       "completed": false
     }
-  ]
-}
+]
+
