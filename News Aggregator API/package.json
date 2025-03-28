@@ -1,0 +1,33 @@
+{
+  "name": "news-aggregator-api",
+  "version": "0.0.1",
+  "description": "restapi project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+    
+  },
+  "author": "Sandeepan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "testEnvironment": "node",
+    "testTimeout": 10000,
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"]
+  }
+}
