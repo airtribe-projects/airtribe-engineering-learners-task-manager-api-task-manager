@@ -1,5 +1,4 @@
-{
-  "tasks": [
+ [
     {
       "id": 1,
       "title": "Set up environment",
@@ -91,4 +90,4 @@
       "completed": false
     }
   ]
-}
+ 
