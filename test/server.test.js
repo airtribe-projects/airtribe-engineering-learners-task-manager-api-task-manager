@@ -8,6 +8,7 @@ tap.test("POST /tasks", async (t) => {
     title: "New Task",
     description: "New Task Description",
     completed: false,
+    priority: 'medium',
   };
   const response = await server.post("/tasks").send(newTask);
   t.equal(response.status, 201);
