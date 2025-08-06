@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Set up environment",
-      "description": "Install Node.js, npm, and git",
+      "description": "Install Node.js, npm, and git,check versions",
       "completed": true
     },
     {
@@ -89,6 +89,30 @@
       "title": "Install jsonwebtoken",
       "description": "Install jsonwebtoken",
       "completed": false
+    },
+    {
+      "title": "Integrate payment gateway",
+      "description": "Set up Stripe integration for handling payments",
+      "completed": false,
+      "id": 16,
+      "priority": "low",
+      "createdDate": "2025-08-06T11:32:34.357Z"
+    },
+    {
+      "title": "Design homepage layout",
+      "description": "Develop wireframes and UI mockups for the homepage",
+      "completed": false,
+      "priority": "medium",
+      "id": 17,
+      "createdDate": "2025-08-06T11:37:33.884Z"
+    },
+    {
+      "title": "Implement authentication",
+      "description": "Add user login and signup functionality",
+      "completed": false,
+      "priority": "high",
+      "id": 18,
+      "createdDate": "2025-08-06T11:41:40.388Z"
     }
   ]
 }
