@@ -1,94 +1,34 @@
 {
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Set up environment",
-      "description": "Install Node.js, npm, and git",
-      "completed": true
-    },
-    {
-      "id": 2,
-      "title": "Create a new project",
-      "description": "Create a new project using the Express application generator",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "title": "Install nodemon",
-      "description": "Install nodemon as a development dependency",
-      "completed": true
-    },
-    {
-      "id": 4,
-      "title": "Install Express",
-      "description": "Install Express",
-      "completed": false
-    },
-    {
-      "id": 5,
-      "title": "Install Mongoose",
-      "description": "Install Mongoose",
-      "completed": false
-    },
-    {
-      "id": 6,
-      "title": "Install Morgan",
-      "description": "Install Morgan",
-      "completed": false
-    },
-    {
-      "id": 7,
-      "title": "Install body-parser",
-      "description": "Install body-parser",
-      "completed": false
-    },
-    {
-      "id": 8,
-      "title": "Install cors",
-      "description": "Install cors",
-      "completed": false
-    },
-    {
-      "id": 9,
-      "title": "Install passport",
-      "description": "Install passport",
-      "completed": false
-    },
-    {
-      "id": 10,
-      "title": "Install passport-local",
-      "description": "Install passport-local",
-      "completed": false
-    },
-    {
-      "id": 11,
-      "title": "Install passport-local-mongoose",
-      "description": "Install passport-local-mongoose",
-      "completed": false
-    },
-    {
-      "id": 12,
-      "title": "Install express-session",
-      "description": "Install express-session",
-      "completed": false
-    },
-    {
-      "id": 13,
-      "title": "Install connect-mongo",
-      "description": "Install connect-mongo",
-      "completed": false
-    },
-    {
-      "id": 14,
-      "title": "Install dotenv",
-      "description": "Install dotenv",
-      "completed": false
-    },
-    {
-      "id": 15,
-      "title": "Install jsonwebtoken",
-      "description": "Install jsonwebtoken",
-      "completed": false
-    }
+"tasks":[
+  {
+    "id":1,
+    "task":"Create a basic HTML structure",
+    "description":"Set up a simple HTML page with a header, main content area, and footer.",
+    "completed":true
+  },
+  {
+    "id":2,
+    "task":"Implement a responsive layout",
+    "description":"Use CSS Flexbox or Grid to make the web page responsive on different screen sizes.",
+     "completed":false
+  },
+  {
+    "id":3,
+    "task":"Add interactivity with JavaScript",
+    "description":"Include a simple JavaScript function that responds to user actions, like a button click.",
+     "completed":true
+  },
+  {
+    "id":4,
+    "task":"Test the web page",
+    "description":"Check the web page in different browsers and devices to ensure it works correctly.",
+     "completed":false
+  },
+  {
+    "id":5,
+    "task":"Deploy the web page",
+    "description":"Upload the web page to a web hosting service or use GitHub Pages for deployment.",
+     "completed":true
+  }
   ]
 }
