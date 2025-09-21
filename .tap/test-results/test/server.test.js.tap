@@ -1,0 +1,99 @@
+TAP version 14
+# Subtest: POST /tasks
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - specified property should be defined own property
+    ok 6 - specified property should be defined own property
+    ok 7 - specified property should be defined own property
+    ok 8 - specified property should be defined own property
+    1..8
+ok 1 - POST /tasks # time=15.908ms
+
+# Subtest: POST /tasks with invalid data
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 2 - POST /tasks with invalid data # time=2.301ms
+
+# Subtest: GET /tasks
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - specified property should be defined own property
+    ok 6 - specified property should be defined own property
+    ok 7 - specified property should be defined own property
+    ok 8 - specified property should be defined own property
+    ok 9 - type is number
+    ok 10 - type is string
+    ok 11 - type is string
+    ok 12 - type is boolean
+    1..12
+ok 3 - GET /tasks # time=1.633ms
+
+# Subtest: GET /tasks/:id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - should match pattern
+    1..5
+ok 4 - GET /tasks/:id # time=2.481ms
+
+# Subtest: GET /tasks/:id with invalid id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 5 - GET /tasks/:id with invalid id # time=1.985ms
+
+# Subtest: PUT /tasks/:id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - specified property should be defined own property
+    ok 6 - specified property should be defined own property
+    ok 7 - specified property should be defined own property
+    ok 8 - specified property should be defined own property
+    1..8
+ok 6 - PUT /tasks/:id # time=2.069ms
+
+# Subtest: PUT /tasks/:id with invalid id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 7 - PUT /tasks/:id with invalid id # time=1.593ms
+
+# Subtest: PUT /tasks/:id with invalid data
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 8 - PUT /tasks/:id with invalid data # time=1.408ms
+
+# Subtest: DELETE /tasks/:id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 9 - DELETE /tasks/:id # time=3.039ms
+
+# Subtest: DELETE /tasks/:id with invalid id
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    1..4
+ok 10 - DELETE /tasks/:id with invalid id # time=1.883ms
+
+1..10
