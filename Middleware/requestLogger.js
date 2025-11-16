@@ -8,14 +8,13 @@ const requestLogger = (req, res, next) => {
   const params = JSON.stringify(req.params);
 
   console.log(`
-    ╔════════════════════════════════════════════════════════════╗
+    HTTp Request:
     ║ [${timestamp}]
     ║ Method: ${method}
     ║ Path: ${path}
     ║ Query: ${query}
     ║ Params: ${params}
     ║ Body: ${body}
-    ╚════════════════════════════════════════════════════════════╝
   `);
 
   next();

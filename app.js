@@ -17,4 +17,15 @@ app.get("/",(req,res)=>{
 app.use("/tasks", taskRouter); //used for test
 app.use("/api/v1/tasks", taskRouter); //exposed to clients
 
+
+if (require.main === module) {
+    const port = process.env.PORT || 3000;
+    app.listen(port, (err) => {
+        if (err) {
+            return console.log('Something bad happened', err);
+        }
+        console.log(`Server is listening on ${port}`);
+    });
+}
+
 module.exports = app;
