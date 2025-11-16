@@ -1,23 +1,11 @@
-// Middleware to log HTTP requests with parameters
-const requestLogger = (req, res, next) => {
-  const timestamp = new Date().toISOString();
-  const method = req.method;
-  const path = req.path;
-  const query = JSON.stringify(req.query);
-  const body = JSON.stringify(req.body);
-  const params = JSON.stringify(req.params);
+// Use pino-http for structured, fast request logging.
+// `pino-http` attaches a `log` instance to `req` (accessible as `req.log`).
+// Keep this middleware shape so app.js can `require('./middleware/requestLogger')`.
+const pinoHttp = require('pino-http');
 
-  console.log(`
-    HTTp Request:
-    ║ [${timestamp}]
-    ║ Method: ${method}
-    ║ Path: ${path}
-    ║ Query: ${query}
-    ║ Params: ${params}
-    ║ Body: ${body}
-  `);
+// Create and export the pino-http middleware instance. We use the default
+// configuration here. For development you can run with `NODE_ENV=development`
+// and pipe through `pino-pretty` if you want pretty output.
+const logger = pinoHttp();
 
-  next();
-};
-
-module.exports = requestLogger;
+module.exports = logger;

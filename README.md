@@ -164,7 +164,42 @@ Note: The API currently mutates the `tasks` array in memory. If you need persist
 
 ## Middleware
 
-`middleware/requestLogger.js` logs each request with timestamp, method, path, query, params and body.
+Logging is implemented with `pino` and `pino-http` for structured, fast request logs.
+
+- The middleware at `middleware/requestLogger.js` is a `pino-http` instance and will
+  attach a request-scoped logger at `req.log` for use in route handlers and services.
+
+Usage notes:
+
+- To run the app normally and see JSON-structured logs on stdout:
+
+```cmd
+node app.js
+curl http://localhost:3000/
+```
+
+- For a human-friendly development view, install `pino-pretty` as a dev dependency and
+  pipe the app output through it:
+
+```cmd
+npm install -D pino-pretty
+node app.js | npx pino-pretty
+```
+
+- Example: logging inside a handler or service (request-scoped):
+
+```js
+// inside a route handler
+req.log.info({ route: '/api/v1/tasks', action: 'list' }, 'listing tasks');
+```
+
+- If you need global, non-request-scoped logging (startup messages, background jobs),
+  create a root pino logger and require it where needed. For request-scoped context,
+  prefer `req.log` so logs include request metadata automatically.
+
+If you want, I can:
+- Migrate existing `console.log` calls in the codebase to use `req.log` or a pino root logger.
+- Add a `dev` script that starts the app and pretty-prints logs automatically.
 
 ## Testing notes
 

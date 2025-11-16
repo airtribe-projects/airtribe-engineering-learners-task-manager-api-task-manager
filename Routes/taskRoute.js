@@ -1,8 +1,6 @@
 const express = require("express");
-const {getAllTasks,getTaskById,createTask,updateTask,deleteTaskById}
- = require('../Services/taskService');
- const {getAllTasksBasedOnPriority}
- = require('../Services/taskServiceOnPriorities');
+const {getAllTasks,getTaskById,createTask,updateTask,deleteTaskById} = require('../Services/taskService');
+const {getAllTasksBasedOnPriority} = require('../Services/taskServiceOnPriorities');
 const taskRouter = express.Router();
 
 

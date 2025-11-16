@@ -5,21 +5,21 @@ const getAllTasks = (req,res) => {
     const sortBy = req.query.sortBy;
     const sortDirection = req.query.sortDirection===undefined?'asc':req.query.sortDirection.toLowerCase();
     let filteredTask = tasks;
-    if(req.query.completed!== undefined){
-        filteredTask = filteredTask.filter(task=>task.completed===completed)
-        console.log(`Found total of filtered tasks ${filteredTask.length}`);
+    if (req.query.completed !== undefined) {
+        filteredTask = filteredTask.filter(task => task.completed === completed);
+        // request-scoped structured logging
+        req.log.info({ filteredCount: filteredTask.length }, 'Filtered tasks count');
     }
-    if(sortBy){
-        // console.log(`before sorting : ${filteredTask.map(task=>task.createdDate).join(', ')}`);
-        filteredTask = filteredTask.sort((a,b)=>{
+    if (sortBy) {
+        filteredTask = filteredTask.sort((a, b) => {
             const date1 = new Date(a.createdDate);
             const date2 = new Date(b.createdDate);
-            // console.log(`date1: ${date1} date2: ${date2}`);
-            return sortDirection === 'desc'?
-                date2-date1 // newest first
-                :date1-date2;
+            return sortDirection === 'desc' ? date2 - date1 : date1 - date2;
         });
-        console.log(`Post sorting : ${filteredTask.map(task=>task.createdDate).join(', ')}`);
+        req.log.info(
+            { sortBy, sortDirection, createdDates: filteredTask.map((t) => t.createdDate) },
+            'Tasks sorted'
+        );
     }
     res.data = filteredTask;
     res.send(filteredTask);

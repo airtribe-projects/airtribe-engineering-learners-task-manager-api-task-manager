@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const taskRouter = require('./Routes/taskRoute');
 const requestLogger = require('./Middleware/requestLogger');
+const pino = require('pino');
+const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -22,9 +24,10 @@ if (require.main === module) {
     const port = process.env.PORT || 3000;
     app.listen(port, (err) => {
         if (err) {
-            return console.log('Something bad happened', err);
+            logger.error({ err }, 'Something bad happened while starting the server');
+            return;
         }
-        console.log(`Server is listening on ${port}`);
+        logger.info({ port }, 'Server is listening');
     });
 }
 
