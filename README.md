@@ -234,3 +234,39 @@ If you want, I can:
 - Add a `server.js` entry script and update `package.json` scripts (if you prefer that structure).
 
 Tell me which improvement to implement next.
+
+## Console logging migration
+
+The codebase's API-related logging has been migrated from ad-hoc `console.log` calls to structured logging using `pino` and `pino-http`:
+
+- Request-scoped logs: handlers and services attached to requests use `req.log` (provided by `pino-http`).
+- App-level logs: a root `pino` logger is used for startup/fatal messages.
+
+Why this change:
+- Structured logs (JSON) are easier to parse and query in production systems and are higher-performance than frequent `console.log` usage.
+
+Developer notes / examples:
+
+- Old style (to be avoided):
+
+```js
+console.log('Found total of filtered tasks', filteredTask.length);
+```
+
+- New, request-scoped style (preferred inside request handlers):
+
+```js
+req.log.info({ filteredCount: filteredTask.length }, 'Filtered tasks count');
+```
+
+- New, app-level style (for startup or background work):
+
+```js
+const pino = require('pino');
+const logger = pino();
+logger.info({ port }, 'Server is listening');
+```
+
+Notes:
+- I migrated API-related `console.log` occurrences in the `Routes/` and `Services/` code to use structured logging; some unrelated helper scripts and exercise files outside the API folder (for example under `Assignments/` or `DSA/`) still contain `console.log` calls and were intentionally left untouched.
+- If you want, I can finish migrating remaining logs or convert them to use a shared root logger. I can also add a `dev` script that pipes output through `pino-pretty` for friendlier local logs.
