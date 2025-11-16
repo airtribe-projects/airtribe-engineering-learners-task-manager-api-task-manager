@@ -1,22 +1,20 @@
 const express = require('express');
 const app = express();
-const port = 3000;
-const taskRouter = require('./Routes/taskRoute')
+const taskRouter = require('./Routes/taskRoute');
+const requestLogger = require('./Middleware/requestLogger');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(port, (err) => {
-    if (err) {
-        return console.log('Something bad happened', err);
-    }
-    console.log(`Server is listening on ${port}`);
-});
+// Use request logger middleware for all routes
+app.use(requestLogger);
 
 app.get("/",(req,res)=>{
     res.send("Alive");
 })
 
-app.use("/api/v1/tasks",taskRouter);
+// Mount router at both API path and root /tasks for tests
+app.use("/tasks", taskRouter); //used for test
+app.use("/api/v1/tasks", taskRouter); //exposed to clients
 
 module.exports = app;
