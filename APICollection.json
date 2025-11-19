@@ -1,0 +1,136 @@
+{
+  "info": {
+    "_postman_id": "8afee141-5ec4-4486-b3f7-e3f59d088105",
+    "name": "TasksAPICollection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "id": "df306077-c611-4a74-a3b7-bc376c11232c",
+      "name": "GET /tasks",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v1/tasks",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "v1",
+            "tasks"
+          ],
+          "protocol": "http",
+          "query": [
+            {
+              "key": "completed",
+              "value": "true",
+              "disabled": false
+            },
+            {
+              "key": "sort",
+              "value": "desc",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "0638d480-46bc-4e19-a45f-889c6ef376cb",
+      "name": "GET /tasks/:taskId",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v1/tasks",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "v1",
+            "tasks"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "811dd95f-587d-4340-8597-a5cc38274fe4",
+      "name": "GET /tasks/priority/:priority",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v1/tasks",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "v1",
+            "tasks"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "b9404add-cfab-4cd8-9ba7-59533357a78f",
+      "name": "POST  /tasks",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/v1/tasks",
+          "host": [
+            "localhost"
+          ],
+          "path": [
+            "v1",
+            "tasks"
+          ],
+          "protocol": "http"
+        }
+      },
+      "response": [],
+      "event": []
+    },
+    {
+      "id": "9ca16229-9eaf-47b9-81ba-0c097a2f45a0",
+      "name": "PUT /tasks/:taskId",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Updated Title\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/v1/tasks/1",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "v1",
+            "tasks",
+            "1"
+          ],
+          "protocol": "https"
+        }
+      },
+      "response": [],
+      "event": []
+    }
+  ]
+}
