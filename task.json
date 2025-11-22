@@ -89,6 +89,36 @@
       "title": "Install jsonwebtoken",
       "description": "Install jsonwebtoken",
       "completed": false
+    },
+    {
+      "id": 16,
+      "title": "Learn Node.js",
+      "description": "Build a task manager API with Express",
+      "completed": false
+    },
+    {
+      "id": 17,
+      "title": "Learn Node.js",
+      "description": "Build a task manager API with Express",
+      "completed": true
+    },
+    {
+      "id": 19,
+      "title": "Learn Node.js",
+      "description": "",
+      "completed": false
+    },
+    {
+      "id": 20,
+      "title": "Learn Node.js",
+      "description": "",
+      "completed": false
+    },
+    {
+      "id": 21,
+      "title": "Learn Node.js",
+      "description": "",
+      "completed": false
     }
   ]
 }

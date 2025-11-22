@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager API Tester</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .test-section {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .test-section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .test-button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background 0.3s;
+        }
+
+        .test-button:hover {
+            background: #764ba2;
+        }
+
+        .test-button.delete {
+            background: #e74c3c;
+        }
+
+        .test-button.delete:hover {
+            background: #c0392b;
+        }
+
+        .response {
+            background: #f5f5f5;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .response.success {
+            border-left-color: #27ae60;
+        }
+
+        .response.error {
+            border-left-color: #e74c3c;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🚀 Task Manager API Tester</h1>
+
+        <div class="grid">
+            <!-- GET All Tasks -->
+            <div class="test-section">
+                <h2>GET /tasks</h2>
+                <p style="color: #666; margin-bottom: 15px;">Retrieve all tasks</p>
+                <button class="test-button" onclick="testGetAllTasks()">Run Test</button>
+                <div id="getAllTasksResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <!-- GET Task by ID -->
+            <div class="test-section">
+                <h2>GET /tasks/:id</h2>
+                <p style="color: #666; margin-bottom: 15px;">Retrieve a specific task by ID</p>
+                <div class="input-group">
+                    <label>Task ID:</label>
+                    <input type="number" id="getTaskId" value="1" placeholder="Enter task ID">
+                </div>
+                <button class="test-button" onclick="testGetTaskById()">Run Test</button>
+                <div id="getTaskByIdResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <!-- POST Create Task -->
+            <div class="test-section">
+                <h2>POST /tasks</h2>
+                <p style="color: #666; margin-bottom: 15px;">Create a new task</p>
+                <div class="input-group">
+                    <label>Title:</label>
+                    <input type="text" id="postTitle" placeholder="Enter task title" value="Learn Node.js">
+                </div>
+                <div class="input-group">
+                    <label>Description:</label>
+                    <textarea id="postDescription" placeholder="Enter task description"
+                        rows="2">Build a task manager API with Express</textarea>
+                </div>
+                <div class="input-group">
+                    <label>Completed:</label>
+                    <select id="postCompleted"
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        <option value="false">False</option>
+                        <option value="true">True</option>
+                    </select>
+                </div>
+                <button class="test-button" onclick="testCreateTask()">Run Test</button>
+                <div id="createTaskResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <!-- PUT Update Task -->
+            <div class="test-section">
+                <h2>PUT /tasks/:id</h2>
+                <p style="color: #666; margin-bottom: 15px;">Update an existing task</p>
+                <div class="input-group">
+                    <label>Task ID:</label>
+                    <input type="number" id="putTaskId" value="1" placeholder="Enter task ID">
+                </div>
+                <div class="input-group">
+                    <label>Title (optional):</label>
+                    <input type="text" id="putTitle" placeholder="Leave empty to skip" value="Updated Task">
+                </div>
+                <div class="input-group">
+                    <label>Completed (optional):</label>
+                    <select id="putCompleted"
+                        style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        <option value="">Skip</option>
+                        <option value="false">False</option>
+                        <option value="true">True</option>
+                    </select>
+                </div>
+                <button class="test-button" onclick="testUpdateTask()">Run Test</button>
+                <div id="updateTaskResponse" class="response" style="display:none;"></div>
+            </div>
+
+            <!-- DELETE Task -->
+            <div class="test-section">
+                <h2>DELETE /tasks/:id</h2>
+                <p style="color: #666; margin-bottom: 15px;">Delete a task by ID</p>
+                <div class="input-group">
+                    <label>Task ID:</label>
+                    <input type="number" id="deleteTaskId" value="1" placeholder="Enter task ID">
+                </div>
+                <button class="test-button delete" onclick="testDeleteTask()">Run Test</button>
+                <div id="deleteTaskResponse" class="response" style="display:none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:3000';
+
+        function displayResponse(elementId, response, isSuccess = true) {
+            const element = document.getElementById(elementId);
+            element.innerHTML = JSON.stringify(response, null, 2);
+            element.className = `response ${isSuccess ? 'success' : 'error'}`;
+            element.style.display = 'block';
+        }
+
+        async function testGetAllTasks() {
+            try {
+                const response = await fetch(`${API_URL}/tasks`);
+                const data = await response.json();
+                displayResponse('getAllTasksResponse', data, true);
+            } catch (error) {
+                displayResponse('getAllTasksResponse', { error: error.message }, false);
+            }
+        }
+
+        async function testGetTaskById() {
+            const id = document.getElementById('getTaskId').value;
+            if (!id) {
+                alert('Please enter a task ID');
+                return;
+            }
+            try {
+                const response = await fetch(`${API_URL}/tasks/${id}`);
+                const data = await response.json();
+                displayResponse('getTaskByIdResponse', data, response.ok);
+            } catch (error) {
+                displayResponse('getTaskByIdResponse', { error: error.message }, false);
+            }
+        }
+
+        async function testCreateTask() {
+            const title = document.getElementById('postTitle').value;
+            const description = document.getElementById('postDescription').value;
+            const completed = document.getElementById('postCompleted').value === 'true';
+
+            if (!title) {
+                alert('Please enter a task title');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/tasks`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ title, description, completed })
+                });
+                const data = await response.json();
+                displayResponse('createTaskResponse', data, response.ok);
+            } catch (error) {
+                displayResponse('createTaskResponse', { error: error.message }, false);
+            }
+        }
+
+        async function testUpdateTask() {
+            const id = document.getElementById('putTaskId').value;
+            const title = document.getElementById('putTitle').value;
+            const completed = document.getElementById('putCompleted').value;
+
+            if (!id) {
+                alert('Please enter a task ID');
+                return;
+            }
+
+            const body = {};
+            if (title) body.title = title;
+            if (completed !== '') body.completed = completed === 'true';
+
+            try {
+                const response = await fetch(`${API_URL}/tasks/${id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                });
+                const data = await response.json();
+                displayResponse('updateTaskResponse', data, response.ok);
+            } catch (error) {
+                displayResponse('updateTaskResponse', { error: error.message }, false);
+            }
+        }
+
+        async function testDeleteTask() {
+            const id = document.getElementById('deleteTaskId').value;
+            if (!id) {
+                alert('Please enter a task ID');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/tasks/${id}`, {
+                    method: 'DELETE'
+                });
+                const data = await response.json();
+                displayResponse('deleteTaskResponse', data, response.ok);
+            } catch (error) {
+                displayResponse('deleteTaskResponse', { error: error.message }, false);
+            }
+        }
+    </script>
+</body>
+
+</html>
