@@ -1,17 +1,17 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const port = 3000;
+const TaskRoute = require("./routes/taskRoute");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.listen(port, (err) => {
-    if (err) {
-        return console.log('Something bad happened', err);
-    }
-    console.log(`Server is listening on ${port}`);
+app.use("/", TaskRoute);
+
+app.use("/health", (req, res) => {
+  res.json({
+    message:
+      "Welcome to the Task Manager API! Send a GET request to /api/v1/tasks to view all tasks.",
+  });
 });
-
-
 
 module.exports = app;

@@ -1,0 +1,156 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Create a new project",
+      "description": "Create a new project using the Express application generator",
+      "completed": true,
+      "creationDate": "2025-12-10T14:23:12.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Install nodemon",
+      "description": "Install nodemon as a development dependency",
+      "completed": true,
+      "creationDate": "2025-12-01T09:45:30.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 4,
+      "title": "Install Express",
+      "description": "Install Express",
+      "completed": false,
+      "creationDate": "2025-12-22T18:05:47.000Z",
+      "priority": "high"
+    },
+    {
+      "id": 5,
+      "title": "Install Mongoose",
+      "description": "Install Mongoose",
+      "completed": false,
+      "creationDate": "2025-12-06T07:12:03.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 6,
+      "title": "Install Morgan",
+      "description": "Install Morgan",
+      "completed": false,
+      "creationDate": "2025-11-29T21:34:55.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 7,
+      "title": "Install body-parser",
+      "description": "Install body-parser",
+      "completed": false,
+      "creationDate": "2025-12-26T02:11:09.000Z",
+      "priority": "high"
+    },
+    {
+      "id": 8,
+      "title": "Install cors",
+      "description": "Install cors",
+      "completed": false,
+      "creationDate": "2025-12-15T12:00:00.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 9,
+      "title": "Install passport",
+      "description": "Install passport",
+      "completed": false,
+      "creationDate": "2025-12-03T16:40:20.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 10,
+      "title": "Install passport-local",
+      "description": "Install passport-local",
+      "completed": false,
+      "creationDate": "2025-12-19T11:22:33.000Z",
+      "priority": "high"
+    },
+    {
+      "id": 11,
+      "title": "Install passport-local-mongoose",
+      "description": "Install passport-local-mongoose",
+      "completed": false,
+      "creationDate": "2025-12-08T20:59:59.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 12,
+      "title": "Install express-session",
+      "description": "Install express-session",
+      "completed": false,
+      "creationDate": "2025-12-13T05:05:05.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 13,
+      "title": "Install connect-mongo",
+      "description": "Install connect-mongo",
+      "completed": false,
+      "creationDate": "2025-11-30T23:59:59.000Z",
+      "priority": "high"
+    },
+    {
+      "id": 14,
+      "title": "Install dotenv",
+      "description": "Install dotenv",
+      "completed": false,
+      "creationDate": "2025-12-24T14:14:14.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 15,
+      "title": "Install jsonwebtoken",
+      "description": "Install jsonwebtoken",
+      "completed": false,
+      "creationDate": "2025-12-04T08:08:08.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 16,
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "creationDate": "2025-12-20T19:19:19.000Z",
+      "priority": "medium"
+    },
+    {
+      "id": 17,
+      "title": "Install nodemon",
+      "description": "Install nodemon as a development dependency",
+      "completed": true,
+      "creationDate": "2025-12-02T03:03:03.000Z",
+      "priority": "low"
+    },
+    {
+      "id": 18,
+      "title": "New Task",
+      "description": "New Task Description",
+      "completed": false,
+      "creationDate": "2025-12-11T22:22:22.000Z",
+      "priority": "high"
+    },
+    {
+      "id": 19,
+      "title": "New High Task",
+      "description": "High priorty task",
+      "completed": true,
+      "priority": "high",
+      "creationDate": "2025-12-27T19:41:23.122Z"
+    },
+    {
+      "id": 20,
+      "title": "Another High Task",
+      "description": "High priorty task",
+      "completed": true,
+      "priority": "high",
+      "creationDate": "2025-12-27T19:41:40.240Z"
+    }
+  ]
+}
