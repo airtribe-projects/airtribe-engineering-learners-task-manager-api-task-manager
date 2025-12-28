@@ -38,10 +38,10 @@ tap.test("GET /tasks", async (t) => {
 });
 
 tap.test("GET /tasks/:id", async (t) => {
-  const response = await server.get("/tasks/1");
+  const response = await server.get("/tasks/2");
   t.equal(response.status, 200);
   const expectedTask = {
-    "id": 1,
+    "id": 2,
     "title": "New Task",
     "description": "New Task Description",
     "completed": true
@@ -62,7 +62,7 @@ tap.test("PUT /tasks/:id", async (t) => {
     description: "Updated Task Description",
     completed: true,
   };
-  const response = await server.put("/tasks/1").send(updatedTask);
+  const response = await server.put("/tasks/2").send(updatedTask);
   t.equal(response.status, 200);
   t.end();
 });
@@ -84,13 +84,13 @@ tap.test("PUT /tasks/:id with invalid data", async (t) => {
     description: "Updated Task Description",
     completed: "true",
   };
-  const response = await server.put("/tasks/1").send(updatedTask);
+  const response = await server.put("/tasks/2").send(updatedTask);
   t.equal(response.status, 400);
   t.end();
 });
 
 tap.test("DELETE /tasks/:id", async (t) => {
-  const response = await server.delete("/tasks/1");
+  const response = await server.delete("/tasks/2");
   t.equal(response.status, 200);
   t.end();
 });

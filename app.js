@@ -15,6 +15,4 @@ app.listen(port, (err) => {
 // Routes - Tasks API
 app.use('/tasks', require('./routes/task'));
 
-
-
 module.exports = app;
