@@ -12,6 +12,9 @@ app.listen(port, (err) => {
     console.log(`Server is listening on ${port}`);
 });
 
+// Routes - Tasks API
+app.use('/tasks', require('./routes/task'));
+
 
 
 module.exports = app;
