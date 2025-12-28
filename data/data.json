@@ -1,0 +1,44 @@
+[
+  {
+    "id": 2,
+    "title": "Think about new idea",
+    "description": "Notes on new idea",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "Go to library",
+    "description": "Read a noval",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Go to relatives",
+    "description": "meet grandma",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "Go to relatives",
+    "description": "meet grandma",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "title": "Learn javascript",
+    "description": "shs concepts",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "title": "Meet a friend",
+    "description": "Talk about trip",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "title": "do something better",
+    "description": "Talk to a person",
+    "completed": true
+  }
+]
