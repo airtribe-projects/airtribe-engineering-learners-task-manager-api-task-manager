@@ -1,22 +1,35 @@
 {
-  "name": "task-manager",
-  "version": "1.0.0",
-  "description": "Assignment 1 for backend engineering launchpad",
-  "main": "index.js",
+  "name": "task-manager-api",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
     "pretest": "node -e \"if (process.version.slice(1).split('.')[0] < 18) { console.error('Unsupported Node.js version, please use version 18'); process.exit(1); }\"",
     "test": "tap test/*.js --disable-coverage"
   },
-  "author": "Airtribe",
-  "license": "ISC",
-  "devDependencies": {
-    "supertest": "^6.3.4",
-    "tap": "^18.6.1"
-  },
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^2.2.2",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.6",
+    "debug": "~2.6.9",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.22.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.11",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^9.0.1"
   },
-  "engines": {
-    "node": ">= 18.0.0"
+  "devDependencies": {
+    "supertest": "^7.2.2",
+    "tap": "^20.0.3"
   }
 }
