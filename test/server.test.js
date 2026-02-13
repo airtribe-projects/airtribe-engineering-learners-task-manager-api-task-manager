@@ -3,14 +3,26 @@ const supertest = require("supertest");
 const app = require("../app");
 const server = supertest(app);
 
+const PORT = process.env.PORT || 3000;
+
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
+
 tap.test("POST /tasks", async (t) => {
-  const newTask = {
-    title: "New Task",
-    description: "New Task Description",
-    completed: false,
-  };
-  const response = await server.post("/tasks").send(newTask);
-  t.equal(response.status, 201);
+  try {
+    const newTask = {
+      title: "New Task",
+      description: "New Task Description",
+      completed: false
+    };
+    const response = await server.post("/tasks").send(newTask);
+    t.equal(response.status, 201);
+  } catch (error) {
+    t.fail(error);
+  }
   t.end();
 });
 
@@ -104,3 +116,5 @@ tap.test("DELETE /tasks/:id with invalid id", async (t) => {
 tap.teardown(() => {
   process.exit(0);
 });
+
+
