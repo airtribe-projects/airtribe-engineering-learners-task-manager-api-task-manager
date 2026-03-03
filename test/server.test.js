@@ -101,6 +101,94 @@ tap.test("DELETE /tasks/:id with invalid id", async (t) => {
   t.end();
 });
 
+// -----------------------------------------------------------------------------
+// new tests for auth and preferences
+// -----------------------------------------------------------------------------
+
+let authToken;
+
+tap.test("POST /register with valid data", async (t) => {
+  const res = await server.post("/register").send({
+    email: "user@example.com",
+    password: "password123",
+  });
+  t.equal(res.status, 201);
+  t.equal(res.body.email, "user@example.com");
+  t.end();
+});
+
+tap.test("POST /register with invalid email", async (t) => {
+  const res = await server.post("/register").send({
+    email: "not-an-email",
+    password: "password123",
+  });
+  t.equal(res.status, 400);
+  t.end();
+});
+
+tap.test("POST /register with short password", async (t) => {
+  const res = await server.post("/register").send({
+    email: "another@example.com",
+    password: "123",
+  });
+  t.equal(res.status, 400);
+  t.end();
+});
+
+tap.test("POST /login with correct credentials", async (t) => {
+  const res = await server.post("/login").send({
+    email: "user@example.com",
+    password: "password123",
+  });
+  t.equal(res.status, 200);
+  t.ok(res.body.token);
+  authToken = res.body.token;
+  t.end();
+});
+
+tap.test("POST /login with wrong password", async (t) => {
+  const res = await server.post("/login").send({
+    email: "user@example.com",
+    password: "wrong",
+  });
+  t.equal(res.status, 401);
+  t.end();
+});
+
+tap.test("GET /preferences without auth should be 401", async (t) => {
+  const res = await server.get("/preferences");
+  t.equal(res.status, 401);
+  t.end();
+});
+
+tap.test("GET /preferences with auth should return default", async (t) => {
+  const res = await server
+    .get("/preferences")
+    .set("Authorization", `Bearer ${authToken}`);
+  t.equal(res.status, 200);
+  t.same(res.body, { categories: [], languages: [] });
+  t.end();
+});
+
+tap.test("PUT /preferences with invalid data", async (t) => {
+  const res = await server
+    .put("/preferences")
+    .set("Authorization", `Bearer ${authToken}`)
+    .send({ categories: "not-an-array" });
+  t.equal(res.status, 400);
+  t.end();
+});
+
+tap.test("PUT /preferences with valid update", async (t) => {
+  const res = await server
+    .put("/preferences")
+    .set("Authorization", `Bearer ${authToken}`)
+    .send({ categories: ["tech"], languages: ["en"] });
+  t.equal(res.status, 200);
+  t.same(res.body, { categories: ["tech"], languages: ["en"] });
+  t.end();
+});
+
 tap.teardown(() => {
   process.exit(0);
 });
