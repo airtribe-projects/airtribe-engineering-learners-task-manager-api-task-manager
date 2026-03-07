@@ -1,0 +1,18 @@
+task-manager/.gitignore
+# dependencies
+node_modules/
+
+# logs
+logs
+*.log
+
+# dotenv
+.env
+
+# build
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
