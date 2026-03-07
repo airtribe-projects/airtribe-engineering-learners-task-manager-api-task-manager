@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const { v4: uuidv4 } = require("uuid");
 
 const app = express();
 const PORT = 5000;
@@ -35,7 +36,7 @@ app.post("/students", (req, res) => {
     }
 
     const newStudent = {
-      id: Date.now(),
+      id: uuidv4(),
       name,
       email,
       course,
@@ -52,16 +53,22 @@ app.post("/students", (req, res) => {
 // Update
 app.put("/students/:id", (req, res) => {
   try {
-    const id = parseInt(req.params.id);
-    const index = students.findIndex((s) => s.id === id);
+    const id = req.params.id;
 
-    if (index === -1) {
+    const student = students.find((s) => s.id === id);
+
+    if (!student) {
       return res.status(404).json({ message: "Student not found" });
     }
 
-    students[index] = { ...students[index], ...req.body };
+    const { name, email, course } = req.body;
 
-    res.json(students[index]);
+    // Update only valid fields
+    if (name) student.name = name;
+    if (email) student.email = email;
+    if (course) student.course = course;
+
+    res.json(student);
   } catch (error) {
     res.status(500).json({ message: "Server error while updating student" });
   }
@@ -70,7 +77,7 @@ app.put("/students/:id", (req, res) => {
 // Delete
 app.delete("/students/:id", (req, res) => {
   try {
-    const id = parseInt(req.params.id);
+    const id = req.params.id;
     const exists = students.some((s) => s.id === id);
 
     if (!exists) {
