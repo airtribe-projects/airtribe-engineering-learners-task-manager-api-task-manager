@@ -1,0 +1,22 @@
+const VEHICLE_TYPES = {
+  MOTORCYCLE: 'MOTORCYCLE',
+  CAR: 'CAR',
+  BUS: 'BUS',
+};
+
+const SPOT_TYPES = {
+  MOTORCYCLE: 'MOTORCYCLE',
+  COMPACT: 'COMPACT',
+  LARGE: 'LARGE',
+};
+
+const SPOT_STATUS = {
+  AVAILABLE: 'AVAILABLE',
+  OCCUPIED: 'OCCUPIED',
+};
+
+module.exports = {
+  VEHICLE_TYPES,
+  SPOT_TYPES,
+  SPOT_STATUS,
+};
