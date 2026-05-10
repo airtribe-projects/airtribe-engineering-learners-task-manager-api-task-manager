@@ -23,6 +23,17 @@ tap.test("POST /tasks with invalid data", async (t) => {
   t.end();
 });
 
+tap.test("POST /tasks with empty title and description", async (t) => {
+  const newTask = {
+    title: "",
+    description: "",
+    completed: false,
+  };
+  const response = await server.post("/tasks").send(newTask);
+  t.equal(response.status, 400);
+  t.end();
+});
+
 tap.test("GET /tasks", async (t) => {
   const response = await server.get("/tasks");
   t.equal(response.status, 200);
@@ -34,6 +45,40 @@ tap.test("GET /tasks", async (t) => {
   t.type(response.body[0].title, "string");
   t.type(response.body[0].description, "string");
   t.type(response.body[0].completed, "boolean");
+  t.end();
+});
+
+tap.test("GET /tasks?completed=true filters tasks", async (t) => {
+  const response = await server.get("/tasks?completed=true");
+  t.equal(response.status, 200);
+  t.ok(response.body.every((task) => task.completed === true));
+  t.end();
+});
+
+tap.test("GET /tasks?completed=false filters tasks", async (t) => {
+  const response = await server.get("/tasks?completed=false");
+  t.equal(response.status, 200);
+  t.ok(response.body.every((task) => task.completed === false));
+  t.end();
+});
+
+tap.test("GET /tasks?completed=yes returns 400", async (t) => {
+  const response = await server.get("/tasks?completed=yes");
+  t.equal(response.status, 400);
+  t.end();
+});
+
+tap.test("GET /tasks/priority/:level returns tasks", async (t) => {
+  const response = await server.get("/tasks/priority/medium");
+  t.equal(response.status, 200);
+  t.ok(Array.isArray(response.body));
+  t.ok(response.body.every((task) => task.priority === "medium"));
+  t.end();
+});
+
+tap.test("GET /tasks/priority/:level invalid returns 400", async (t) => {
+  const response = await server.get("/tasks/priority/urgent");
+  t.equal(response.status, 400);
   t.end();
 });
 
@@ -89,6 +134,17 @@ tap.test("PUT /tasks/:id with invalid data", async (t) => {
   t.end();
 });
 
+tap.test("PUT /tasks/:id with empty title and description", async (t) => {
+  const updatedTask = {
+    title: "",
+    description: "",
+    completed: true,
+  };
+  const response = await server.put("/tasks/1").send(updatedTask);
+  t.equal(response.status, 400);
+  t.end();
+});
+
 tap.test("DELETE /tasks/:id", async (t) => {
   const response = await server.delete("/tasks/1");
   t.equal(response.status, 200);
@@ -101,6 +157,3 @@ tap.test("DELETE /tasks/:id with invalid id", async (t) => {
   t.end();
 });
 
-tap.teardown(() => {
-  process.exit(0);
-});
