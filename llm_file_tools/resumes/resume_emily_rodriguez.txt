@@ -1,0 +1,47 @@
+EMILY RODRIGUEZ
+emily.rodriguez@email.com | (555) 456-7890 | Portfolio: emilyrod.dev
+
+PROFESSIONAL SUMMARY
+DevOps Engineer and Infrastructure Specialist with 5+ years of experience designing and maintaining scalable systems. Expert in cloud infrastructure, containerization, and automated deployment pipelines. Proven ability to reduce infrastructure costs and improve system reliability.
+
+TECHNICAL SKILLS
+- Cloud Platforms: AWS, Azure, Google Cloud Platform, DigitalOcean
+- Containerization: Docker, Kubernetes, Docker Compose
+- Infrastructure as Code: Terraform, CloudFormation, Ansible
+- CI/CD: Jenkins, GitLab CI, GitHub Actions, CircleCI
+- Monitoring & Logging: Prometheus, Grafana, ELK Stack, Datadog
+- Languages: Python, Bash, Go, YAML
+- Databases: PostgreSQL, MongoDB, Redis, DynamoDB
+
+PROFESSIONAL EXPERIENCE
+Senior DevOps Engineer | Infrastructure Systems | Jan 2021 - Present
+- Designed Kubernetes clusters hosting 50+ microservices
+- Automated infrastructure provisioning using Terraform (IaC)
+- Implemented monitoring reducing mean-time-to-resolution by 50%
+- Led team of 2 junior engineers, code reviews, and documentation
+
+DevOps Engineer | Cloud Native Solutions | Jul 2018 - Dec 2020
+- Built CI/CD pipelines using Jenkins and GitHub Actions
+- Managed AWS infrastructure for 20+ projects
+- Implemented disaster recovery procedures with 99.95% uptime
+- Created comprehensive monitoring and alerting systems
+- Reduced infrastructure costs by 35% through optimization
+
+Systems Administrator | Tech Company | Jan 2017 - Jun 2018
+- Managed on-premises servers and network infrastructure
+- Implemented security policies and compliance standards
+- Provided technical support to development teams
+
+EDUCATION
+Bachelor of Science in Computer Science
+Engineering University | 2016
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect - Professional (2023)
+- Certified Kubernetes Administrator (CKA) (2022)
+- Linux Foundation Certified Associate (LFCA) (2021)
+
+ACHIEVEMENTS
+- Reduced deployment time from 2 hours to 5 minutes
+- Achieved 99.99% system uptime for critical services
+- Implemented zero-downtime deployments for 100+ releases

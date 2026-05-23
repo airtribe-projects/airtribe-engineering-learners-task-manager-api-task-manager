@@ -1,0 +1,44 @@
+SARAH JOHNSON
+sarah.johnson@email.com | (555) 234-5678 | GitHub.com/sarahjohnson
+
+PROFESSIONAL SUMMARY
+Full-Stack Developer with 4+ years of experience in building cloud-based applications. Expert in React, Node.js, and AWS services. Passionate about writing clean code and creating efficient solutions for complex problems.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Python, Ruby, HTML/CSS
+- Frontend: React, Vue.js, Next.js, Tailwind CSS
+- Backend: Node.js, Express, Rails, FastAPI
+- Cloud: AWS (EC2, S3, Lambda, RDS), Google Cloud Platform
+- Databases: PostgreSQL, MongoDB, Redis
+- DevOps: Docker, Jenkins, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+Senior Full-Stack Developer | Cloud Innovations Ltd | Mar 2021 - Present
+- Architected and deployed microservices on AWS using ECS and Lambda
+- Led frontend team responsible for React-based SPA
+- Implemented CI/CD pipeline reducing deployment time by 60%
+- Mentored 3 junior developers
+
+Full-Stack Developer | Web Solutions Agency | Jan 2019 - Feb 2021
+- Developed 15+ client projects using React and Node.js
+- Implemented real-time features using WebSockets
+- Designed database schemas for complex business logic
+- Improved application performance by optimizing queries
+
+Frontend Developer | Digital Startups | Jun 2018 - Dec 2018
+- Built responsive web interfaces with React and CSS
+- Collaborated with backend team on API integration
+- Participated in UX improvement initiatives
+
+EDUCATION
+Bachelor of Science in Information Technology
+Tech Institute | 2018
+
+CERTIFICATIONS
+- AWS Certified Cloud Practitioner (2022)
+- React Advanced Patterns (Egghead.io) (2021)
+
+NOTABLE ACHIEVEMENTS
+- Developed 50+ React components used by 100K+ users
+- Reduced bundle size by 45% through code splitting
+- Led successful migration from REST to GraphQL API
