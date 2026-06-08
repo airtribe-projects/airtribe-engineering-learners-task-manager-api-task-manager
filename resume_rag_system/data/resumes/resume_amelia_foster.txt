@@ -1,0 +1,32 @@
+AMELIA FOSTER
+amelia.foster@example.com | (213) 555-2240 | linkedin.com/in/amelia-foster
+
+PROFESSIONAL SUMMARY
+Mobile Engineer with 6+ years of experience delivering iOS apps to consumers. Strong in Swift and SwiftUI, with a track record of shipping polished, performant apps at scale.
+
+TECHNICAL SKILLS
+- Core: Swift, iOS, SwiftUI, Objective-C
+- Additional: REST, GraphQL
+- All: Swift, iOS, SwiftUI, Objective-C, REST, GraphQL, Xcode
+
+PROFESSIONAL EXPERIENCE
+Senior iOS Engineer | Soylent | Jan 2022 – Present
+- Led design and rollout of Swift-based modules powering 5M+ daily active users.
+- Mentored 3 engineers and ran the team's mobile hiring loop.
+- Drove a 30% reduction in app launch time by re-architecting the SwiftUI layer.
+- Owned the release train and crash-rate dashboards.
+
+iOS Engineer | Initech | Jun 2018 – Dec 2021
+- Shipped Swift features used by 1M+ active users.
+- Built CI/CD pipelines that cut release time by 40%.
+- Partnered with design and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Metropolitan College | 2017
+
+CERTIFICATIONS
+- Apple Certified iOS Developer (2023)
+
+PROJECTS
+- Habit-tracker side project showcasing Swift and SwiftUI.

@@ -1,0 +1,30 @@
+OLIVIA BRENNAN
+olivia.brennan@example.com | (646) 555-2230 | linkedin.com/in/olivia-brennan
+
+PROFESSIONAL SUMMARY
+Frontend Engineer with 4+ years of experience delivering production web applications in media. Strong in TypeScript and React, with a track record of shipping accessible, performant UIs.
+
+TECHNICAL SKILLS
+- Core: JavaScript, TypeScript, React, Redux, Next.js
+- Additional: GraphQL, Jest
+- All: JavaScript, TypeScript, React, Redux, Next.js, GraphQL, Jest, REST
+
+PROFESSIONAL EXPERIENCE
+Frontend Engineer | Massive Dynamic | Mar 2024 – Present
+- Designed and implemented React components for the streaming reader experience.
+- Reduced JS bundle size by 30% by tuning Webpack and code-splitting Next.js routes.
+- Wrote unit and integration tests using Jest and Playwright.
+
+Junior Frontend Engineer | Tyrell | Sep 2022 – Feb 2024
+- Contributed to React/Redux features and internal tooling.
+- Participated in design reviews and on-call shadowing for the web tier.
+
+EDUCATION
+Bachelor of Science in Information Systems
+Metropolitan College | 2022
+
+CERTIFICATIONS
+- Frontend Masters Professional Certification (2024)
+
+PROJECTS
+- Reading-list side project showcasing TypeScript, React, and GraphQL.

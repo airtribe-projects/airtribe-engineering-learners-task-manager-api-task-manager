@@ -1,0 +1,30 @@
+JIN PARK
+jin.park@example.com | (415) 555-8893 | linkedin.com/in/jin-park
+
+PROFESSIONAL SUMMARY
+Mobile Engineer with 4+ years of experience delivering Android apps in fintech. Strong in Kotlin and Android, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Kotlin, Android, Java
+- Additional: REST, Firebase
+- All: Kotlin, Android, Java, REST, Firebase, Jetpack Compose
+
+PROFESSIONAL EXPERIENCE
+Android Engineer | Pied Piper | Mar 2024 – Present
+- Designed and implemented Kotlin components for the core mobile banking app.
+- Reduced crash rate by 30% by tuning lifecycle handling and Firebase Crashlytics rollouts.
+- Wrote integration tests and runbooks adopted across the team.
+
+Junior Android Engineer | Globex | Sep 2022 – Feb 2024
+- Contributed to Kotlin services and internal mobile tooling powering 500K+ daily users.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Software Engineering
+City Tech Institute | 2021
+
+CERTIFICATIONS
+- Google Associate Android Developer (2023)
+
+PROJECTS
+- Personal-finance side project showcasing Kotlin and Android Jetpack.

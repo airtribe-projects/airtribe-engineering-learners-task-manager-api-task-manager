@@ -1,0 +1,32 @@
+AARAV PATEL
+aarav.patel@example.com | (415) 555-2017 | linkedin.com/in/aarav-patel
+
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 8+ years of experience delivering production ML systems in fintech. Strong in Python and PyTorch, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Python, PyTorch, TensorFlow, Transformers, HuggingFace, MLOps
+- Additional: AWS, Docker, Kubernetes
+- All: Python, PyTorch, TensorFlow, Transformers, HuggingFace, MLOps, AWS, Docker, Kubernetes
+
+PROFESSIONAL EXPERIENCE
+Senior Machine Learning Engineer | Hooli | Jan 2022 – Present
+- Led design and rollout of Python-based ML services scoring millions of transactions/day for fraud detection.
+- Mentored 4 engineers and ran the team's ML hiring loop.
+- Drove a 40% reduction in inference latency by re-architecting the PyTorch serving layer.
+- Owned the MLOps stack (training pipelines, model registry, online evaluation).
+
+Machine Learning Engineer | Globex | Jun 2018 – Dec 2021
+- Shipped Transformer-based credit-risk models used by 5M+ active users.
+- Built CI/CD pipelines on AWS that cut model deploy time by 60%.
+- Partnered with data and product to define metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+State University | 2016
+
+CERTIFICATIONS
+- AWS Certified Machine Learning – Specialty (2023)
+
+PROJECTS
+- Fraud detection side project showcasing PyTorch and Transformers on tabular data.
