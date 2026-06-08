@@ -1,0 +1,9 @@
+{
+  "id": "jd_devops_sre",
+  "title": "Site Reliability Engineer",
+  "description": "SRE with 5+ years operating Kubernetes in production. Strong Linux fundamentals, Terraform for IaC, and experience with CI/CD pipelines. You will own SLOs, incident response, and capacity planning. AWS preferred.",
+  "must_have_skills": ["kubernetes", "terraform", "linux", "ci/cd"],
+  "nice_to_have_skills": ["aws", "go", "python"],
+  "min_years_experience": 5,
+  "min_education": "BACHELOR"
+}

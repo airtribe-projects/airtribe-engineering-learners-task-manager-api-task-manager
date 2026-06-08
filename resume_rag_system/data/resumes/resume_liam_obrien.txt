@@ -1,0 +1,32 @@
+LIAM O'BRIEN
+liam.obrien@example.com | (212) 555-6645 | linkedin.com/in/liam-obrien
+
+PROFESSIONAL SUMMARY
+Engineering Manager with 13+ years of experience delivering production platforms across enterprise. Strong in Python and Java, with a track record of growing teams and shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Python, Java, Leadership, Mentoring, Agile, Scrum
+- Additional: AWS, System design
+- All: Python, Java, Leadership, Mentoring, Agile, Scrum, AWS, System design, SQL
+
+PROFESSIONAL EXPERIENCE
+Engineering Manager | Globex | Jan 2018 – Present
+- Led design and rollout of Python-based services owned by a 12-person team.
+- Mentored 5 engineers and ran the team's hiring loop.
+- Drove a 40% reduction in incident rate by re-architecting the on-call rotation.
+- Owned the team's roadmap and quarterly OKRs.
+
+Tech Lead | Acme Systems | Jun 2013 – Dec 2017
+- Shipped Java services used by 5M+ active users.
+- Built CI/CD pipelines that cut deploy time by 50%.
+- Partnered with product and design on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+State University | 2012
+
+CERTIFICATIONS
+- Certified Scrum Master (2019)
+
+PROJECTS
+- Internal-mentorship-program side project showcasing leadership and curriculum design.

@@ -1,0 +1,32 @@
+BEN CARTER
+ben.carter@example.com | (415) 555-3380 | linkedin.com/in/ben-carter
+
+PROFESSIONAL SUMMARY
+QA Automation Engineer with 5+ years of experience delivering production test suites in SaaS. Strong in Python and Selenium, with a track record of catching regressions before they ship.
+
+TECHNICAL SKILLS
+- Core: Python, Selenium, Pytest, JavaScript
+- Additional: CI/CD, Docker
+- All: Python, Selenium, Pytest, JavaScript, CI/CD, Docker, Linux
+
+PROFESSIONAL EXPERIENCE
+Senior QA Automation Engineer | Vandelay | Jan 2023 – Present
+- Led design and rollout of Python-based test frameworks covering 1000+ scenarios/day.
+- Mentored 2 engineers and ran the team's QA hiring loop.
+- Drove a 30% reduction in flake rate by re-architecting the Selenium fixture layer.
+- Owned the on-call rotation and the test-health dashboards.
+
+QA Automation Engineer | Initech | Jun 2020 – Dec 2022
+- Shipped Pytest-based regression suites used by 50K+ active users.
+- Built CI/CD pipelines that cut test-cycle time by 40%.
+- Partnered with engineering and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Polytechnic University | 2019
+
+CERTIFICATIONS
+- ISTQB Advanced Test Automation Engineer (2022)
+
+PROJECTS
+- E2E test-harness side project showcasing Python, Pytest, and Docker.
