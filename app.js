@@ -1,17 +1,20 @@
-const express = require('express');
+const express = require("express");
+const taskRoutes = require("./routes/tasks");
+
 const app = express();
-const port = 3000;
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
-app.listen(port, (err) => {
-    if (err) {
-        return console.log('Something bad happened', err);
-    }
-    console.log(`Server is listening on ${port}`);
+app.use("/tasks", taskRoutes);
+
+app.get("/", (req, res) => {
+  res.json({
+    message: "Task API is running",
+  });
 });
 
+const PORT = 3000;
 
-
-module.exports = app;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
