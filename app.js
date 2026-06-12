@@ -6,8 +6,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //  GET /tasks: Retrieve all tasks.
- app.get("/tasks",(req,res)=>{
-    res.send("task list")
+ app.get("/health",(req,res)=>{
+    res.send("health list")
  })
 
 app.listen(port, (err) => {
