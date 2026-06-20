@@ -1,0 +1,9 @@
+{
+  "id": "jd_ml_engineer",
+  "title": "Senior Machine Learning Engineer",
+  "description": "We are looking for a Senior Machine Learning Engineer with at least 5 years of experience shipping production ML systems. You will design, train, and deploy models powering our personalization stack. The ideal candidate is fluent in Python and PyTorch, has hands-on experience with Transformers and HuggingFace, and has built or operated MLOps tooling. Bonus: experience with RAG pipelines, vector databases, and large language models.",
+  "must_have_skills": ["python", "pytorch", "transformers", "mlops"],
+  "nice_to_have_skills": ["huggingface", "rag", "langchain", "aws"],
+  "min_years_experience": 5,
+  "min_education": "BACHELOR"
+}

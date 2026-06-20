@@ -1,0 +1,42 @@
+JOHN DOE
+john.doe@email.com | (555) 123-4567 | LinkedIn.com/in/johndoe
+
+PROFESSIONAL SUMMARY
+Experienced Software Engineer with 5+ years of expertise in Python and JavaScript development. Specialized in building scalable web applications and data analysis solutions. Proven track record of delivering high-quality projects on time.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, TypeScript, SQL, Java
+- Web Development: React, Node.js, Django, FastAPI
+- Data Science: Pandas, NumPy, Scikit-learn, TensorFlow
+- Databases: PostgreSQL, MongoDB, MySQL
+- Tools & Platforms: Docker, Kubernetes, AWS, Git
+
+PROFESSIONAL EXPERIENCE
+Senior Software Engineer | Tech Corp | Jan 2021 - Present
+- Led development of microservices architecture using Python and Node.js
+- Implemented machine learning models for predictive analytics
+- Mentored junior developers and conducted code reviews
+- Reduced API response time by 40% through optimization
+
+Software Engineer | Digital Solutions Inc | Jul 2018 - Dec 2020
+- Developed full-stack web applications using React and Django
+- Built RESTful APIs serving 100K+ daily users
+- Implemented automated testing with 90% code coverage
+- Collaborated with cross-functional teams on agile projects
+
+Junior Developer | StartUp Hub | Jun 2017 - Jun 2018
+- Contributed to Python backend development
+- Built features for customer-facing web application
+- Participated in daily stand-ups and sprint planning
+
+EDUCATION
+Bachelor of Science in Computer Science
+State University | 2017
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect - Associate (2022)
+- Google Cloud Professional Cloud Architect (2021)
+
+PROJECTS
+- Resume Parser: Built Python tool to extract and analyze resume data
+- Analytics Dashboard: Created interactive dashboards using React and D3.js
