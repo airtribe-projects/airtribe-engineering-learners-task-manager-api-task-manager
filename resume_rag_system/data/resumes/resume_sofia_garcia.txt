@@ -1,0 +1,30 @@
+SOFIA GARCIA
+sofia.garcia@example.com | (646) 555-2204 | linkedin.com/in/sofia-garcia
+
+PROFESSIONAL SUMMARY
+Junior Software Engineer with 2 years of experience delivering production features at startups. Strong in Python and React, with a track record of shipping reliable software at scale for an early-stage team.
+
+TECHNICAL SKILLS
+- Core: Python, JavaScript, React, SQL
+- Additional: Git, Linux
+- All: Python, JavaScript, React, SQL, Git, Linux, REST
+
+PROFESSIONAL EXPERIENCE
+Software Engineer | Umbrella Labs | Mar 2024 – Present
+- Designed and implemented Python components for the core platform.
+- Reduced infra cost by 20% by tuning database queries and React renders.
+- Wrote integration tests and runbooks adopted across the team.
+
+Junior Software Engineer | Soylent | Sep 2023 – Feb 2024
+- Contributed to Python services and React UI features.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Metropolitan College | 2023
+
+CERTIFICATIONS
+- Python Institute PCEP (2023)
+
+PROJECTS
+- Side project: a small SaaS dashboard built with Python and React.

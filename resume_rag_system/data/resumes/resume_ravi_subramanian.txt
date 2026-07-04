@@ -1,0 +1,30 @@
+RAVI SUBRAMANIAN
+ravi.subramanian@example.com | (480) 555-5571 | linkedin.com/in/ravi-subramanian
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with 4+ years of experience delivering production infrastructure in fintech. Strong in Linux and Kubernetes, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Linux, Bash, Docker, Kubernetes, Terraform
+- Additional: AWS, Jenkins, CI/CD
+- All: Linux, Bash, Docker, Kubernetes, Terraform, AWS, Jenkins, CI/CD, Python
+
+PROFESSIONAL EXPERIENCE
+DevOps Engineer | Hooli | Mar 2024 – Present
+- Designed and implemented Kubernetes components for the core trading platform.
+- Reduced infra cost by 30% by tuning Terraform workloads.
+- Wrote integration tests and runbooks adopted across the team.
+
+Junior DevOps Engineer | Vandelay | Sep 2022 – Feb 2024
+- Contributed to Kubernetes clusters and internal CI/CD tooling.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Information Systems
+City Tech Institute | 2021
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (2023)
+
+PROJECTS
+- IaC side project showcasing Terraform and Kubernetes.

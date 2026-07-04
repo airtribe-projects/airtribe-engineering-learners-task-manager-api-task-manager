@@ -1,0 +1,49 @@
+MICHAEL CHEN
+michael.chen@email.com | (555) 345-6789
+
+PROFILE
+Data Scientist and ML Engineer with 6+ years of experience in building machine learning solutions. Strong background in Python, data analysis, and deep learning. Experienced in transforming business problems into data-driven solutions.
+
+TECHNICAL SKILLS
+- Languages: Python, R, SQL, Julia
+- Machine Learning: Scikit-learn, TensorFlow, PyTorch, XGBoost
+- Data Analysis: Pandas, NumPy, SciPy, Matplotlib, Seaborn
+- Big Data: Spark, Hadoop, Hive
+- Cloud: AWS SageMaker, Google Cloud AI Platform
+- Databases: PostgreSQL, MySQL, Cassandra
+
+PROFESSIONAL EXPERIENCE
+Senior Data Scientist | Analytics Corp | May 2020 - Present
+- Led development of ML models improving business metrics by 35%
+- Built Python data pipelines processing 10+ TB daily
+- Implemented recommendation system increasing user engagement by 25%
+- Published 2 papers on ML optimization techniques
+
+Data Scientist | InsightTech | Aug 2017 - Apr 2020
+- Developed predictive models for customer churn (92% accuracy)
+- Created data visualization dashboards for stakeholders
+- Implemented A/B testing framework analyzing 50+ experiments
+- Collaborated with engineering team on model deployment
+
+Data Analyst | StartUp Analytics | Jan 2017 - Jul 2017
+- Analyzed complex datasets using Python and SQL
+- Created reports for C-level executives
+- Optimized database queries reducing runtime by 70%
+
+EDUCATION
+Master of Science in Data Science
+Tech University | 2016
+
+Bachelor of Science in Statistics
+State College | 2014
+
+CERTIFICATIONS
+- Deep Learning Specialization (Coursera) (2022)
+- AWS Certified Machine Learning - Specialty (2021)
+
+SKILLS HIGHLIGHT
+- Python programming for data science
+- Statistical modeling and hypothesis testing
+- Deep neural networks and computer vision
+- Natural language processing (NLP)
+- Model deployment and monitoring

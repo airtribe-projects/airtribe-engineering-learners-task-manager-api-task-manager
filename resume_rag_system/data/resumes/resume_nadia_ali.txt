@@ -1,0 +1,33 @@
+NADIA ALI
+nadia.ali@example.com | (703) 555-1112 | linkedin.com/in/nadia-ali
+
+PROFESSIONAL SUMMARY
+Security Engineer with 7+ years of experience hardening production systems in defense. Strong in Linux and networking, with a track record of shipping reliable, audited software at scale.
+
+TECHNICAL SKILLS
+- Core: Python, Linux, Networking, Security, Bash
+- Additional: AWS, Kubernetes
+- All: Python, Linux, Networking, Security, Bash, AWS, Kubernetes, Terraform
+
+PROFESSIONAL EXPERIENCE
+Senior Security Engineer | Stark Industries | Jan 2022 – Present
+- Led design and rollout of Python-based threat-detection services.
+- Mentored 3 engineers and ran the team's security hiring loop.
+- Drove a 40% reduction in alert noise by re-architecting the SIEM correlation layer.
+- Owned the on-call rotation and incident-response runbooks.
+
+Security Engineer | Acme Systems | Jun 2017 – Dec 2021
+- Shipped Linux hardening tooling used across 5M+ endpoints.
+- Built CI/CD pipelines that cut deploy time by 30%.
+- Partnered with platform and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Cybersecurity
+National University | 2017
+
+CERTIFICATIONS
+- OSCP (2022)
+- AWS Certified Security – Specialty (2023)
+
+PROJECTS
+- Threat-detection side project showcasing Python and Linux internals.

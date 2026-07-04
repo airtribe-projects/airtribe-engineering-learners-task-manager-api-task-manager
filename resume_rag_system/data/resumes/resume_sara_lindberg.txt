@@ -1,0 +1,30 @@
+SARA LINDBERG
+sara.lindberg@example.com | (617) 555-3041 | linkedin.com/in/sara-lindberg
+
+PROFESSIONAL SUMMARY
+ML Research Scientist with 6+ years at the intersection of NLP and applied research. Deep expertise in PyTorch and Transformers, with publications on retrieval-augmented generation and LLM evaluation.
+
+TECHNICAL SKILLS
+- Core: Python, PyTorch, NLP, Transformers, RAG, LangChain
+- Additional: LLM evaluation, Statistics
+- All: Python, PyTorch, NLP, Transformers, RAG, LangChain, HuggingFace, OpenAI
+
+PROFESSIONAL EXPERIENCE
+Senior Research Scientist | Aperture | Mar 2023 – Present
+- Designed and implemented PyTorch components for an in-house RAG-over-documents framework.
+- Reduced retrieval latency by 50% by tuning HNSW vector indexes.
+- Wrote integration tests and runbooks adopted across the research team.
+
+Research Scientist | Cyberdyne | Sep 2020 – Feb 2023
+- Contributed to Transformer-based retrieval research and internal tooling.
+- Published 3 papers on retrieval-augmented generation and LLM evaluation.
+
+EDUCATION
+Ph.D. in Computer Science
+National University | 2020
+
+CERTIFICATIONS
+- HuggingFace Transformers Specialist (2024)
+
+PROJECTS
+- RAG side project showcasing LangChain and Transformers over scientific corpora.
