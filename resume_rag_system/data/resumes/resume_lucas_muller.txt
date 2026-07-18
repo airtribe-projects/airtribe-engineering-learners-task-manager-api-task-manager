@@ -1,0 +1,32 @@
+LUCAS MULLER
+lucas.muller@example.com | (646) 555-5582 | linkedin.com/in/lucas-muller
+
+PROFESSIONAL SUMMARY
+Embedded Systems Engineer with 7+ years of experience delivering production firmware in automotive. Strong in C++ and embedded Linux, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: C++, C, Embedded, Linux, Python
+- Additional: RTOS, ARM
+- All: C++, C, Embedded, Linux, Python, RTOS, ARM, CAN bus
+
+PROFESSIONAL EXPERIENCE
+Senior Embedded Systems Engineer | Stark Industries | Jan 2022 – Present
+- Led design and rollout of C++ firmware running across 100K+ vehicles.
+- Mentored 3 engineers and ran the team's embedded hiring loop.
+- Drove a 30% reduction in flash footprint by re-architecting the embedded Linux layer.
+- Owned the on-call rotation and the field-telemetry dashboards.
+
+Embedded Systems Engineer | Aperture | Jun 2018 – Dec 2021
+- Shipped C firmware used in 50K+ industrial sensors.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with hardware and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Electrical Engineering
+Polytechnic University | 2018
+
+CERTIFICATIONS
+- ARM Accredited Engineer (2022)
+
+PROJECTS
+- Sensor-firmware side project showcasing C++ and RTOS.

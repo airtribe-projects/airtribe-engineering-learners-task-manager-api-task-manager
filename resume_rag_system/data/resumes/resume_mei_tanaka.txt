@@ -1,0 +1,30 @@
+MEI TANAKA
+mei.tanaka@example.com | (212) 555-8841 | linkedin.com/in/mei-tanaka
+
+PROFESSIONAL SUMMARY
+Backend Engineer with 5+ years of experience delivering production systems in logistics. Strong in Go and gRPC, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Go, gRPC, PostgreSQL, Kafka, Redis
+- Additional: Kubernetes, Terraform
+- All: Go, gRPC, PostgreSQL, Kafka, Redis, Kubernetes, Terraform, Linux
+
+PROFESSIONAL EXPERIENCE
+Backend Engineer | Wayne Tech | Mar 2023 – Present
+- Designed and implemented Go components for the dispatch routing service.
+- Reduced infra cost by 30% by tuning Kafka consumer workloads.
+- Wrote integration tests and runbooks adopted across the team.
+
+Junior Backend Engineer | Stark Industries | Sep 2020 – Feb 2023
+- Contributed to Go services and internal tooling powering 500K+ daily shipments.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Polytechnic University | 2019
+
+CERTIFICATIONS
+- Certified Kubernetes Application Developer (2023)
+
+PROJECTS
+- Logistics simulator side project showcasing Go and gRPC.

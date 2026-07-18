@@ -1,0 +1,32 @@
+HIROSHI YAMADA
+hiroshi.yamada@example.com | (415) 555-7702 | linkedin.com/in/hiroshi-yamada
+
+PROFESSIONAL SUMMARY
+Database Engineer with 8+ years of experience delivering production data stores in fintech. Deep expertise in PostgreSQL and MySQL, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: PostgreSQL, MySQL, SQL, Python, Redis
+- Additional: AWS, Linux
+- All: PostgreSQL, MySQL, SQL, Python, Redis, AWS, Linux, Bash
+
+PROFESSIONAL EXPERIENCE
+Senior Database Engineer | Globex | Jan 2021 – Present
+- Led design and rollout of PostgreSQL clusters powering a payments platform handling billions in volume.
+- Mentored 3 engineers and ran the team's DB hiring loop.
+- Drove a 50% reduction in query latency by re-architecting the indexing layer.
+- Owned the on-call rotation and the replication-health dashboards.
+
+Database Engineer | Cyberdyne | Jun 2017 – Dec 2020
+- Shipped MySQL tooling used by 1M+ active users.
+- Built CI/CD pipelines that cut deploy time by 30%.
+- Partnered with backend and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+State University | 2016
+
+CERTIFICATIONS
+- AWS Certified Database – Specialty (2022)
+
+PROJECTS
+- HA-failover side project showcasing PostgreSQL and Python.

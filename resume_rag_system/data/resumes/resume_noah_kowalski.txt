@@ -1,0 +1,32 @@
+NOAH KOWALSKI
+noah.kowalski@example.com | (312) 555-9912 | linkedin.com/in/noah-kowalski
+
+PROFESSIONAL SUMMARY
+Senior Frontend Engineer who has spent 7 years in SaaS. Deep expertise in TypeScript and React, working knowledge of Next.js and Vue, and a habit of writing testable, observable code.
+
+TECHNICAL SKILLS
+- Core: TypeScript, React, Next.js, Vue, Webpack
+- Additional: Node.js, REST
+- All: TypeScript, JavaScript, React, Next.js, Vue, Webpack, Node.js, REST, GraphQL
+
+PROFESSIONAL EXPERIENCE
+Senior Frontend Engineer | Pied Piper | Jan 2022 – Present
+- Led design and rollout of TypeScript-based design system used by 6 product teams.
+- Mentored 3 engineers and ran the team's frontend hiring loop.
+- Drove a 40% reduction in TTI by re-architecting the Next.js layer.
+- Owned the frontend on-call rotation and Lighthouse dashboards.
+
+Frontend Engineer | Soylent | Jun 2018 – Dec 2021
+- Shipped React features used by 1M+ active users.
+- Built CI/CD pipelines that cut deploy time by 50%.
+- Partnered with design on a shared component library.
+
+EDUCATION
+Bachelor of Science in Computer Science
+State University | 2017
+
+CERTIFICATIONS
+- TypeScript Professional Certification (2023)
+
+PROJECTS
+- Component-library side project showcasing TypeScript and React.

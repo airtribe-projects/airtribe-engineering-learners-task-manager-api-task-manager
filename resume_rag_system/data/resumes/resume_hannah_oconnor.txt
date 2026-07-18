@@ -1,0 +1,32 @@
+HANNAH O'CONNOR
+hannah.oconnor@example.com | (213) 555-6650 | linkedin.com/in/hannah-oconnor
+
+PROFESSIONAL SUMMARY
+Data Engineer with 6+ years of experience delivering production pipelines in retail. Strong in Python and Spark, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Python, SQL, Spark, Airflow, Snowflake, dbt
+- Additional: AWS, Kafka
+- All: Python, SQL, Spark, Airflow, Snowflake, dbt, AWS, Kafka, Linux
+
+PROFESSIONAL EXPERIENCE
+Senior Data Engineer | Globex | Jan 2022 – Present
+- Led design and rollout of Python-based Spark jobs processing billions of events/day for retail analytics.
+- Mentored 3 engineers and ran the team's data hiring loop.
+- Drove a 50% reduction in pipeline cost by re-architecting the Airflow scheduling layer.
+- Owned the on-call rotation and the data-quality dashboards.
+
+Data Engineer | Hooli | Jun 2020 – Dec 2021
+- Shipped Spark and dbt models in Snowflake used by 500K+ daily decisions.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with analytics and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Data Science
+National University | 2018
+
+CERTIFICATIONS
+- Snowflake SnowPro Core Certification (2023)
+
+PROJECTS
+- Retail-forecasting side project showcasing Python and Spark.

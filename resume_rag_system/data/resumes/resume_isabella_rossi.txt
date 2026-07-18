@@ -1,0 +1,33 @@
+ISABELLA ROSSI
+isabella.rossi@example.com | (212) 555-9923 | linkedin.com/in/isabella-rossi
+
+PROFESSIONAL SUMMARY
+Senior NLP Engineer with 7+ years of experience delivering production language systems in legal-tech. Deep expertise in Python and Transformers, with a track record of shipping retrieval-augmented assistants at scale.
+
+TECHNICAL SKILLS
+- Core: Python, PyTorch, Transformers, NLP, HuggingFace, RAG, LangChain, OpenAI
+- Additional: AWS, Docker
+- All: Python, PyTorch, Transformers, NLP, HuggingFace, RAG, LangChain, OpenAI, Anthropic, AWS, Docker
+
+PROFESSIONAL EXPERIENCE
+Senior NLP Engineer | Aperture | Jan 2022 – Present
+- Led design and rollout of Python-based RAG pipelines retrieving over 50M legal documents.
+- Mentored 4 engineers and ran the team's NLP hiring loop.
+- Drove a 40% improvement in answer relevance by re-architecting the Transformers retrieval layer.
+- Owned the on-call rotation and LLM evaluation dashboards.
+
+NLP Engineer | Cyberdyne | Jun 2018 – Dec 2021
+- Shipped HuggingFace-based document-classification models used by 1M+ paralegals.
+- Built CI/CD pipelines that cut deploy time by 50%.
+- Partnered with product and legal SMEs on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computational Linguistics
+National University | 2017
+
+CERTIFICATIONS
+- HuggingFace Transformers Specialist (2023)
+- AWS Certified Machine Learning – Specialty (2024)
+
+PROJECTS
+- Contract-QA side project showcasing Python, LangChain, and OpenAI APIs.

@@ -1,0 +1,9 @@
+{
+  "id": "jd_backend_python",
+  "title": "Senior Python Backend Engineer",
+  "description": "Senior backend engineer to own our payments service. Must have 5+ years of Python in production, deep PostgreSQL knowledge, and experience with FastAPI or Django. You should be comfortable with Kafka, Redis, and event-driven architectures. We deploy on AWS via Docker and Kubernetes.",
+  "must_have_skills": ["python", "postgresql", "fastapi", "kafka"],
+  "nice_to_have_skills": ["redis", "aws", "docker", "kubernetes"],
+  "min_years_experience": 5,
+  "min_education": "BACHELOR"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "jd_data_engineer",
+  "title": "Data Engineer",
+  "description": "Data engineer to build batch and streaming pipelines on top of Spark, Kafka, and Airflow. Strong SQL and Python required. You will own data quality, dbt models, and the warehouse (Snowflake). 4+ years of experience expected.",
+  "must_have_skills": ["python", "sql", "spark", "airflow"],
+  "nice_to_have_skills": ["snowflake", "dbt", "kafka"],
+  "min_years_experience": 4,
+  "min_education": "BACHELOR"
+}

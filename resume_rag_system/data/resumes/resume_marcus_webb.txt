@@ -1,0 +1,33 @@
+MARCUS WEBB
+marcus.webb@example.com | (646) 555-7780 | linkedin.com/in/marcus-webb
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 12+ years of experience delivering production platforms in consulting engagements. Strong in AWS and Azure, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: AWS, Azure, Terraform, Kubernetes, Python
+- Additional: Networking, Security
+- All: AWS, Azure, Terraform, Kubernetes, Python, Networking, Security, Linux, CI/CD
+
+PROFESSIONAL EXPERIENCE
+Principal Cloud Architect | Wayne Tech | Jan 2018 – Present
+- Led design and rollout of multi-cloud platforms handling millions of requests/day for Fortune-500 clients.
+- Mentored 5 architects and ran the practice's hiring loop.
+- Drove a 40% reduction in cloud spend by re-architecting the Terraform modules layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Senior Cloud Engineer | Globex | Jun 2014 – Dec 2017
+- Shipped AWS-based platforms used by 1M+ active enterprise users.
+- Built CI/CD pipelines that cut deploy time by 50%.
+- Partnered with security and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+State University | 2013
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect – Professional (2023)
+- Microsoft Certified: Azure Solutions Architect Expert (2022)
+
+PROJECTS
+- Multi-cloud landing-zone side project showcasing Terraform and Python.

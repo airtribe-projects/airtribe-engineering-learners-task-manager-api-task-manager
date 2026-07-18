@@ -1,0 +1,33 @@
+GRACE THOMPSON
+grace.thompson@example.com | (212) 555-4471 | linkedin.com/in/grace-thompson
+
+PROFESSIONAL SUMMARY
+Technical Program Manager with 10+ years of experience delivering enterprise platforms. Strong in Agile and stakeholder communication, with a track record of shipping reliable programs at scale.
+
+TECHNICAL SKILLS
+- Core: Agile, Scrum, Leadership, Communication, SQL
+- Additional: Python, AWS
+- All: Agile, Scrum, Leadership, Communication, SQL, Python, AWS, Mentoring
+
+PROFESSIONAL EXPERIENCE
+Senior Technical Program Manager | Initech | Jan 2020 – Present
+- Led design and rollout of cross-team programs spanning 6 engineering squads.
+- Mentored 3 program managers and ran the practice's hiring loop.
+- Drove a 40% reduction in launch slippage by re-architecting the dependency-tracking layer.
+- Owned the program-health dashboards and quarterly stakeholder readouts.
+
+Technical Program Manager | Vandelay | Jun 2015 – Dec 2019
+- Shipped enterprise platform programs used by 5M+ active users.
+- Built CI/CD-aligned release calendars that cut deploy risk by 50%.
+- Partnered with engineering and product on metrics and instrumentation.
+
+EDUCATION
+Master of Business Administration
+National University | 2014
+
+CERTIFICATIONS
+- PMP (2018)
+- Certified Scrum Master (2017)
+
+PROJECTS
+- Program-health side project showcasing SQL and Python dashboards.

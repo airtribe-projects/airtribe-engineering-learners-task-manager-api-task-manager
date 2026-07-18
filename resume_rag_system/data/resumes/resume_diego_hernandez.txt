@@ -1,0 +1,32 @@
+DIEGO HERNANDEZ
+diego.hernandez@example.com | (305) 555-7723 | linkedin.com/in/diego-hernandez
+
+PROFESSIONAL SUMMARY
+Pragmatic Senior Backend Engineer (9 yrs) specialising in Python. Comfortable owning a feature end-to-end across FastAPI, PostgreSQL, and Kafka, and partnering with product to ship outcomes, not just code.
+
+TECHNICAL SKILLS
+- Core: Python, FastAPI, Django, PostgreSQL, Redis, Kafka
+- Additional: Docker, AWS, GraphQL
+- All: Python, FastAPI, Django, PostgreSQL, Redis, Kafka, Docker, AWS, GraphQL, REST
+
+PROFESSIONAL EXPERIENCE
+Senior Backend Engineer | Initech | Jan 2021 – Present
+- Led design and rollout of Python-based microservices handling millions of requests/day for an e-commerce platform.
+- Mentored 5 engineers and ran the team's backend hiring loop.
+- Drove a 50% reduction in p95 latency by re-architecting the PostgreSQL access layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Backend Engineer | Vandelay | Jun 2017 – Dec 2020
+- Shipped FastAPI services in Python used by 1M+ active users.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with data and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Software Engineering
+City Tech Institute | 2015
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect – Associate (2022)
+
+PROJECTS
+- Event-driven side project showcasing Python and Kafka for order fulfilment.

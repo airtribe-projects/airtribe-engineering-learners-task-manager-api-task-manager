@@ -1,0 +1,32 @@
+YUKI SATO
+yuki.sato@example.com | (415) 555-1167 | linkedin.com/in/yuki-sato
+
+PROFESSIONAL SUMMARY
+MLOps Engineer with 5+ years of experience delivering production ML platforms in fintech. Strong in Python and Kubernetes, with a track record of shipping reliable training and serving infra at scale.
+
+TECHNICAL SKILLS
+- Core: Python, MLOps, Kubernetes, Airflow, Docker
+- Additional: AWS, Terraform
+- All: Python, MLOps, Kubernetes, Airflow, Docker, AWS, Terraform, CI/CD
+
+PROFESSIONAL EXPERIENCE
+Senior MLOps Engineer | Hooli | Jan 2023 – Present
+- Led design and rollout of Python-based MLOps platform serving 200+ models.
+- Mentored 2 engineers and ran the team's MLOps hiring loop.
+- Drove a 50% reduction in training-pipeline cost by re-architecting the Airflow scheduling layer.
+- Owned the on-call rotation and the model-registry dashboards.
+
+ML Platform Engineer | Vandelay | Jun 2020 – Dec 2022
+- Shipped Kubernetes-based serving stack used by 10M+ scoring requests/day.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with ML and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+City Tech Institute | 2019
+
+CERTIFICATIONS
+- AWS Certified Machine Learning – Specialty (2023)
+
+PROJECTS
+- Feature-store side project showcasing Python, Kubernetes, and Airflow.

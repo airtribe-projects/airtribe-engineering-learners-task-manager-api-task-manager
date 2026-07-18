@@ -1,0 +1,32 @@
+FELIX OSTROWSKI
+felix.ostrowski@example.com | (917) 555-1129 | linkedin.com/in/felix-ostrowski
+
+PROFESSIONAL SUMMARY
+Senior Data Scientist who has spent 8 years in insurance. Deep expertise in Python and Statistics, working knowledge of PyTorch and NLP, and a habit of writing testable, observable code.
+
+TECHNICAL SKILLS
+- Core: Python, Scikit-learn, PyTorch, Statistics, NLP
+- Additional: Spark, MLOps
+- All: Python, Scikit-learn, PyTorch, Statistics, NLP, Spark, MLOps, SQL, AWS
+
+PROFESSIONAL EXPERIENCE
+Senior Data Scientist | Cyberdyne | Jan 2021 – Present
+- Led design and rollout of Python-based pricing models scoring billions in premium.
+- Mentored 4 engineers and ran the team's DS hiring loop.
+- Drove a 40% reduction in model-staleness incidents by re-architecting the MLOps layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Data Scientist | Massive Dynamic | Jun 2017 – Dec 2020
+- Shipped Scikit-learn and PyTorch models used by 1M+ active policy decisions.
+- Built CI/CD pipelines that cut deploy time by 30%.
+- Partnered with actuarial and product on metrics and instrumentation.
+
+EDUCATION
+Ph.D. in Statistics
+National University | 2017
+
+CERTIFICATIONS
+- DataIQ MLOps Practitioner (2024)
+
+PROJECTS
+- Claims-NLP side project showcasing Python and PyTorch.
