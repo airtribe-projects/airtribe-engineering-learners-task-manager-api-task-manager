@@ -1,0 +1,30 @@
+ANIKA SHARMA
+anika.sharma@example.com | (415) 555-3309 | linkedin.com/in/anika-sharma
+
+PROFESSIONAL SUMMARY
+AI Product Engineer with 4+ years of experience delivering production LLM features in consumer AI. Strong in Python and LangChain, with a track record of shipping reliable RAG products at scale.
+
+TECHNICAL SKILLS
+- Core: Python, OpenAI, Anthropic, LangChain, RAG, Transformers
+- Additional: FastAPI, React
+- All: Python, OpenAI, Anthropic, LangChain, RAG, Transformers, HuggingFace, FastAPI, React
+
+PROFESSIONAL EXPERIENCE
+AI Product Engineer | Wayne Tech | Mar 2024 – Present
+- Designed and implemented Python components for an LLM-powered consumer assistant.
+- Reduced retrieval cost by 30% by tuning RAG chunking and reranking.
+- Wrote integration tests and LLM-evaluation harnesses adopted across the team.
+
+Software Engineer | Soylent | Sep 2022 – Feb 2024
+- Contributed to LangChain-based services and internal LLM tooling.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Computer Science
+City Tech Institute | 2022
+
+CERTIFICATIONS
+- DeepLearning.AI LLM Application Engineering (2024)
+
+PROJECTS
+- RAG side project showcasing Python, LangChain, and OpenAI.

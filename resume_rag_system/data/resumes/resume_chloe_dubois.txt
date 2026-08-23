@@ -1,0 +1,32 @@
+CHLOE DUBOIS
+chloe.dubois@example.com | (929) 555-4413 | linkedin.com/in/chloe-dubois
+
+PROFESSIONAL SUMMARY
+Senior SRE with 9+ years of experience operating production infrastructure in telecom. Strong in Kubernetes and Terraform, with a track record of meeting tough SLOs.
+
+TECHNICAL SKILLS
+- Core: Kubernetes, Terraform, Prometheus, Linux, Go
+- Additional: AWS, CI/CD
+- All: Kubernetes, Terraform, Prometheus, Linux, Go, AWS, CI/CD, Bash
+
+PROFESSIONAL EXPERIENCE
+Senior Site Reliability Engineer | Tyrell | Jan 2021 – Present
+- Led design and rollout of Kubernetes-based platforms handling millions of calls/day.
+- Mentored 4 engineers and ran the team's SRE hiring loop.
+- Drove a 50% reduction in MTTR by re-architecting the Prometheus alerting layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Site Reliability Engineer | Stark Industries | Jun 2016 – Dec 2020
+- Shipped Go-based control-plane components used by 5M+ active sessions.
+- Built CI/CD pipelines that cut deploy time by 60%.
+- Partnered with networking and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Electrical Engineering
+Polytechnic University | 2015
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (2022)
+
+PROJECTS
+- Chaos-engineering side project showcasing Kubernetes and Terraform.

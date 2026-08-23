@@ -1,0 +1,32 @@
+ZOE ANDERSON
+zoe.anderson@example.com | (917) 555-9981 | linkedin.com/in/zoe-anderson
+
+PROFESSIONAL SUMMARY
+Staff Software Engineer with 14+ years of experience delivering production distributed systems. Strong in Python and Go, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: Python, Go, Distributed systems, PostgreSQL, Kafka
+- Additional: AWS, Kubernetes
+- All: Python, Go, Distributed systems, PostgreSQL, Kafka, AWS, Kubernetes, Linux
+
+PROFESSIONAL EXPERIENCE
+Staff Software Engineer | Tyrell | Jan 2018 – Present
+- Led design and rollout of Python and Go services handling tens of millions of QPS.
+- Mentored 5 engineers and ran the team's senior hiring loop.
+- Drove a 50% reduction in p99 latency by re-architecting the Kafka transport layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Senior Software Engineer | Pied Piper | Jun 2012 – Dec 2017
+- Shipped Go services used by 10M+ active users.
+- Built CI/CD pipelines that cut deploy time by 60%.
+- Partnered with infra and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+National University | 2011
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect – Professional (2022)
+
+PROJECTS
+- Distributed-tracing side project showcasing Go and Kafka.

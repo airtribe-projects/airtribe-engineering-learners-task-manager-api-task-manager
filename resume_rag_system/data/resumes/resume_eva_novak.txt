@@ -1,0 +1,32 @@
+EVA NOVAK
+eva.novak@example.com | (646) 555-2293 | linkedin.com/in/eva-novak
+
+PROFESSIONAL SUMMARY
+Game Developer with 6+ years of experience delivering production titles in gaming. Strong in C++ and Unity, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: C++, C#, Unity, Unreal, Game design
+- Additional: Python
+- All: C++, C#, Unity, Unreal, Game design, Python
+
+PROFESSIONAL EXPERIENCE
+Senior Game Developer | Massive Dynamic | Jan 2022 – Present
+- Led design and rollout of C++ gameplay systems for a multiplayer title with 2M+ daily players.
+- Mentored 3 engineers and ran the team's gameplay hiring loop.
+- Drove a 30% reduction in frame-time variance by re-architecting the Unreal rendering layer.
+- Owned the on-call rotation for live-ops and the player-health dashboards.
+
+Game Developer | Initech | Jun 2018 – Dec 2021
+- Shipped Unity gameplay features used by 1M+ active players.
+- Built CI/CD pipelines that cut build time by 40%.
+- Partnered with art and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Metropolitan College | 2018
+
+CERTIFICATIONS
+- Unity Certified Programmer (2022)
+
+PROJECTS
+- Indie-game side project showcasing Unity and C#.

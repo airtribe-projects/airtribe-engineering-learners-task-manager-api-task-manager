@@ -1,0 +1,32 @@
+WEI ZHANG
+wei.zhang@example.com | (650) 555-7708 | linkedin.com/in/wei-zhang
+
+PROFESSIONAL SUMMARY
+Senior Data Engineer who has spent 10 years in ad-tech. Deep expertise in Spark and Kafka, working knowledge of Airflow and BigQuery, and a habit of writing testable, observable code.
+
+TECHNICAL SKILLS
+- Core: Python, Scala, Spark, Kafka, Hadoop, Airflow
+- Additional: GCP, BigQuery
+- All: Python, Scala, Spark, Kafka, Hadoop, Airflow, GCP, BigQuery, SQL, Linux
+
+PROFESSIONAL EXPERIENCE
+Staff Data Engineer | Pied Piper | Jan 2020 – Present
+- Led design and rollout of Spark-based services handling 100B events/day.
+- Mentored 5 engineers and ran the team's data hiring loop.
+- Drove a 60% reduction in pipeline cost by re-architecting the Kafka ingest layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Senior Data Engineer | Vandelay | Jun 2014 – Dec 2019
+- Shipped Scala/Spark pipelines used by 5M+ active advertisers.
+- Built CI/CD pipelines that cut deploy time by 50%.
+- Partnered with data science and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Computer Science
+State University | 2014
+
+CERTIFICATIONS
+- GCP Professional Data Engineer (2022)
+
+PROJECTS
+- Streaming-analytics side project showcasing Scala and Kafka.

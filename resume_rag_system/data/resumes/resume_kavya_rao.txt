@@ -1,0 +1,26 @@
+KAVYA RAO
+kavya.rao@example.com | (415) 555-9978 | linkedin.com/in/kavya-rao
+
+PROFESSIONAL SUMMARY
+Junior Data Scientist with 1 year of consulting experience delivering production analytics. Strong in Python and Pandas, eager to grow into senior modelling work.
+
+TECHNICAL SKILLS
+- Core: Python, Pandas, Scikit-learn, SQL, Statistics
+- Additional: Tableau
+- All: Python, Pandas, NumPy, Scikit-learn, SQL, Statistics, Tableau
+
+PROFESSIONAL EXPERIENCE
+Data Scientist | Acme Systems | Jun 2025 – Present
+- Designed and implemented Python-based churn-analysis components for client engagements.
+- Reduced reporting cycle time by 25% by tuning SQL queries and Pandas pipelines.
+- Wrote analytical playbooks and runbooks adopted across the practice.
+
+EDUCATION
+Master of Science in Statistics
+National University | 2025
+
+CERTIFICATIONS
+- DataCamp Data Scientist Track (2025)
+
+PROJECTS
+- Customer-churn side project showcasing Python and Scikit-learn.

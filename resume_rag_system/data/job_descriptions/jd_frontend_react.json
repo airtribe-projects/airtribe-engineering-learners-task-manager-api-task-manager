@@ -1,0 +1,9 @@
+{
+  "id": "jd_frontend_react",
+  "title": "Senior Frontend Engineer (React)",
+  "description": "Senior frontend engineer to lead our React/Next.js platform. 5+ years of TypeScript and React in production, comfort with Redux and modern build tooling. You'll partner with design on a shared component library.",
+  "must_have_skills": ["typescript", "react", "next.js"],
+  "nice_to_have_skills": ["redux", "graphql"],
+  "min_years_experience": 5,
+  "min_education": "BACHELOR"
+}

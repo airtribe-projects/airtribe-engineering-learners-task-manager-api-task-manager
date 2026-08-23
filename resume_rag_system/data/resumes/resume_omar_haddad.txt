@@ -1,0 +1,32 @@
+OMAR HADDAD
+omar.haddad@example.com | (917) 555-8830 | linkedin.com/in/omar-haddad
+
+PROFESSIONAL SUMMARY
+Blockchain Engineer with 5+ years of experience delivering production smart-contract systems in web3. Strong in Solidity and Rust, with a track record of shipping audited contracts at scale.
+
+TECHNICAL SKILLS
+- Core: Solidity, Rust, JavaScript, Node.js
+- Additional: Ethereum, Smart contracts
+- All: Solidity, Rust, JavaScript, Node.js, Ethereum, Smart contracts, REST
+
+PROFESSIONAL EXPERIENCE
+Senior Blockchain Engineer | Pied Piper | Jan 2023 – Present
+- Led design and rollout of Solidity-based smart contracts handling $100M+ in volume.
+- Mentored 2 engineers and ran the team's blockchain hiring loop.
+- Drove a 30% reduction in gas usage by re-architecting the contract storage layer.
+- Owned the on-call rotation and the on-chain monitoring dashboards.
+
+Blockchain Engineer | Cyberdyne | Jun 2020 – Dec 2022
+- Shipped Rust-based off-chain services used by 50K+ active wallets.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with security and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Polytechnic University | 2019
+
+CERTIFICATIONS
+- Certified Blockchain Developer (2022)
+
+PROJECTS
+- DeFi-protocol side project showcasing Solidity and Rust.
