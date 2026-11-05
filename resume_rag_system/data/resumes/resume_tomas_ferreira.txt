@@ -1,0 +1,30 @@
+TOMAS FERREIRA
+tomas.ferreira@example.com | (786) 555-1186 | linkedin.com/in/tomas-ferreira
+
+PROFESSIONAL SUMMARY
+Full-Stack Engineer with 3+ years of experience delivering production web applications at startups. Strong in JavaScript and Node.js, with a track record of shipping reliable software at scale.
+
+TECHNICAL SKILLS
+- Core: JavaScript, Node.js, Express, React, MongoDB
+- Additional: AWS
+- All: JavaScript, TypeScript, Node.js, Express, React, MongoDB, AWS, REST
+
+PROFESSIONAL EXPERIENCE
+Full-Stack Engineer | Umbrella Labs | Mar 2024 – Present
+- Designed and implemented Node.js components for the core platform.
+- Reduced infra cost by 20% by tuning MongoDB workloads.
+- Wrote integration tests and runbooks adopted across the team.
+
+Junior Full-Stack Engineer | Hooli | Sep 2022 – Feb 2024
+- Contributed to JavaScript services and internal tooling.
+- Participated in design reviews and on-call shadowing.
+
+EDUCATION
+Bachelor of Science in Software Engineering
+National University | 2021
+
+CERTIFICATIONS
+- AWS Certified Cloud Practitioner (2023)
+
+PROJECTS
+- MERN-stack side project showcasing JavaScript and React.

@@ -1,0 +1,9 @@
+{
+  "id": "jd_nlp_llm",
+  "title": "NLP / LLM Application Engineer",
+  "description": "Engineer to build LLM-powered product features. Hands-on with HuggingFace, Transformers, and at least one orchestration framework (LangChain or LlamaIndex). Experience designing RAG pipelines and integrating with OpenAI or Anthropic APIs is essential. 3+ years.",
+  "must_have_skills": ["python", "transformers", "langchain", "rag"],
+  "nice_to_have_skills": ["huggingface", "openai", "anthropic"],
+  "min_years_experience": 3,
+  "min_education": "BACHELOR"
+}

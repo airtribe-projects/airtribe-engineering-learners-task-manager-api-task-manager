@@ -1,0 +1,32 @@
+DANIEL COHEN
+daniel.cohen@example.com | (310) 555-7714 | linkedin.com/in/daniel-cohen
+
+PROFESSIONAL SUMMARY
+Computer Vision Engineer with 6+ years of experience delivering production perception systems in robotics. Strong in Python and PyTorch, with a track record of shipping reliable real-time models.
+
+TECHNICAL SKILLS
+- Core: Python, PyTorch, Computer Vision, TensorFlow, OpenCV
+- Additional: CUDA, Docker
+- All: Python, PyTorch, Computer Vision, TensorFlow, OpenCV, CUDA, Docker, MLOps
+
+PROFESSIONAL EXPERIENCE
+Senior Computer Vision Engineer | Massive Dynamic | Jan 2022 – Present
+- Led design and rollout of PyTorch-based perception models running on edge GPUs.
+- Mentored 3 engineers and ran the team's CV hiring loop.
+- Drove a 40% reduction in inference latency by re-architecting the CUDA kernels layer.
+- Owned the on-call rotation and the model-monitoring dashboards.
+
+Computer Vision Engineer | Wayne Tech | Jun 2018 – Dec 2021
+- Shipped TensorFlow-based detection models used in 5K+ robots.
+- Built CI/CD pipelines that cut deploy time by 30%.
+- Partnered with hardware and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Robotics
+Polytechnic University | 2018
+
+CERTIFICATIONS
+- NVIDIA DLI Computer Vision Certificate (2022)
+
+PROJECTS
+- Real-time tracker side project showcasing Python, PyTorch, and CUDA.

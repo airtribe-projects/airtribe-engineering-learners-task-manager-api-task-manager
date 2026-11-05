@@ -1,0 +1,32 @@
+LINDA MWANGI
+linda.mwangi@example.com | (415) 555-3398 | linkedin.com/in/linda-mwangi
+
+PROFESSIONAL SUMMARY
+Data Scientist with 5+ years of experience delivering production ML in healthcare. Strong in Python and Scikit-learn, with a track record of translating clinical questions into modelling problems.
+
+TECHNICAL SKILLS
+- Core: Python, Pandas, Scikit-learn, Statistics, SQL
+- Additional: Tableau, AWS
+- All: Python, Pandas, NumPy, Scikit-learn, Statistics, SQL, Tableau, AWS
+
+PROFESSIONAL EXPERIENCE
+Senior Data Scientist | Acme Systems | Jan 2023 – Present
+- Led design and rollout of Python-based readmission-risk models scoring 1M+ patients/day.
+- Mentored 2 engineers and ran the team's DS hiring loop.
+- Drove a 30% reduction in false-positive rate by re-architecting the feature-engineering layer.
+- Owned the on-call rotation and the model-monitoring dashboards.
+
+Data Scientist | Initech | Jun 2021 – Dec 2022
+- Shipped Scikit-learn models used by 100K+ clinicians.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with clinical and product on metrics and instrumentation.
+
+EDUCATION
+Master of Science in Statistics
+Polytechnic University | 2020
+
+CERTIFICATIONS
+- AWS Certified Data Analytics – Specialty (2023)
+
+PROJECTS
+- Patient-risk side project showcasing Python and Scikit-learn.

@@ -1,0 +1,32 @@
+PRIYA IYER
+priya.iyer@example.com | (408) 555-4423 | linkedin.com/in/priya-iyer
+
+PROFESSIONAL SUMMARY
+Pragmatic Full-Stack Engineer (5 yrs) specialising in Python and React. Comfortable owning a feature end-to-end across Django, PostgreSQL, and the React frontend, and partnering with product to ship outcomes, not just code.
+
+TECHNICAL SKILLS
+- Core: Python, Django, React, PostgreSQL
+- Additional: Docker, AWS
+- All: Python, Django, React, JavaScript, PostgreSQL, Docker, AWS, REST
+
+PROFESSIONAL EXPERIENCE
+Full-Stack Engineer | Acme Systems | Jan 2023 – Present
+- Led design and rollout of Python/Django services backing an edtech learning platform.
+- Mentored 2 engineers and ran the squad's hiring loop.
+- Drove a 30% reduction in latency by re-architecting the React data-fetching layer.
+- Owned the on-call rotation and the SLO dashboards.
+
+Software Engineer | Northwind | Jun 2020 – Dec 2022
+- Shipped Python and React features used by 100K+ active users.
+- Built CI/CD pipelines that cut deploy time by 40%.
+- Partnered with data and product on metrics and instrumentation.
+
+EDUCATION
+Bachelor of Science in Computer Science
+City Tech Institute | 2019
+
+CERTIFICATIONS
+- AWS Certified Developer – Associate (2022)
+
+PROJECTS
+- Edtech analytics side project showcasing Python and React.
